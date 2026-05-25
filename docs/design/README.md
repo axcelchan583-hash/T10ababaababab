@@ -48,6 +48,23 @@ IDC 稳健提高企业新进入份额。
 详见：
 
 - `../memos/entry_mechanism_heterogeneity_first_round_20260525.md`
+- `../memos/ajg3_minimal_upgrade_round_results_20260525.md`
+
+## AJG3 升级检验第一轮
+
+2026-05-25 已补一轮最小升级检验：
+
+- `scope >= 2` 的现代 DID 复核：Borusyak-Jaravel-Spiess 和 Callaway-Sant'Anna 都显示事件后 1-4 年 `new_applicant_share` 显著上升，处理前三期不显著；
+- 整体申请人城市 × 高算力技术领域 × 年份 DDD：高算力领域的新进入申请人数、新进入专利数和新进入份额相对上升；
+- 时间安慰剂：未来 3 年、5 年 IDC 覆盖对 `new_applicant_share`、`ln1p_new_applicants`、`ln1p_new_patents` 均不显著；
+- 组织申请人与发明授权口径仍不稳，不能把主结论升级为“企业/组织/高质量创新进入”。
+
+当前判断：
+
+```text
+主线比上一版更能防守：城市 IDC 服务覆盖扩大创新进入边界。
+但机制口径要谨慎：高算力领域额外更强，组织/企业进入和授权质量尚未打赢。
+```
 
 ## 企业层面补充试验
 

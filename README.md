@@ -440,6 +440,34 @@ Top20 粗分类探索显示，当前不能直接写成“企业/上市公司头�
 不能作为强因果主结论。
 ```
 
+## 2026-05-25 AJG3 升级检验第一轮
+
+已按外部评审意见补一轮最小升级检验：
+
+- 脚本：`scripts/build_overall_tech_entry_ddd_panel.py`
+- 脚本：`scripts/run_ajg3_minimal_upgrade_stata.do`
+- 脚本：`scripts/run_idc_scope_modern_did_stata.do`
+- 结果：`results/tables/ajg3_minimal_upgrade_results_20260525.csv`
+- 结果：`results/tables/idc_scope_modern_did_20260525.csv`
+- 备忘录：`docs/memos/ajg3_minimal_upgrade_round_results_20260525.md`
+
+关键更新：
+
+- `scope >= 2` 的现代 DID 支持主结果。Borusyak-Jaravel-Spiess 和 Callaway-Sant'Anna 均显示事件后 +1 至 +4 年 `new_applicant_share` 显著上升，处理前三期不显著；
+- BJS 规格中，`new_applicant_share` 前趋势联合检验 `p = 0.762`；
+- `ln1p_new_applicants` 与 `ln1p_new_patents` 在两套现代 DID 中也显示事件后上升；
+- 整体申请人城市 × 高算力技术领域 × 年份 DDD 显示，高算力领域的新进入申请人数、新进入专利数和新进入份额相对上升；
+- 低算力领域单独回归也为正，因此不能写“IDC 只影响高算力领域”，更准确是“普遍扩容 + 高算力领域额外增强”；
+- 时间安慰剂通过：未来 3 年、5 年 IDC 覆盖对主 Y 和分子变量均不显著；
+- 组织申请人和发明授权口径仍不稳，不能升级成“企业/组织/高质量创新进入”。
+
+当前主线因此从“黄灯偏绿”上调为：
+
+```text
+可以继续写，且主结果已经具备比普通 OLS+FE 更强的动态识别支撑。
+但冲中文顶刊/AJG3 仍必须补政策 horse-race 和高价值专利质量口径。
+```
+
 ## 兼容说明
 
 早期脚本和备忘录大量引用 `outputs/`。现在 `outputs/` 保留为软链接兼容目录，真实文件分别位于：

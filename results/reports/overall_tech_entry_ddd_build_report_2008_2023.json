@@ -1,0 +1,221 @@
+{
+  "detail_rows": 2986600,
+  "panel_rows": 9294,
+  "cities": 291,
+  "years": [
+    2008,
+    2023
+  ],
+  "high_compute_subclasses": [
+    "B25J",
+    "G05B",
+    "G06C",
+    "G06D",
+    "G06E",
+    "G06F",
+    "G06G",
+    "G06J",
+    "G06K",
+    "G06M",
+    "G06N",
+    "G06Q",
+    "G06T",
+    "G06V",
+    "G10L",
+    "G16B",
+    "G16C",
+    "G16H",
+    "G16Y",
+    "H04B",
+    "H04L",
+    "H04M",
+    "H04N",
+    "H04W"
+  ],
+  "source_stats": [
+    {
+      "pub_file_year": 2000,
+      "rows_seen": 110405,
+      "rows_clean": 3057,
+      "rows_inv_app": 3057,
+      "groups": 2059
+    },
+    {
+      "pub_file_year": 2001,
+      "rows_seen": 123118,
+      "rows_clean": 14432,
+      "rows_inv_app": 14432,
+      "groups": 8591
+    },
+    {
+      "pub_file_year": 2002,
+      "rows_seen": 141513,
+      "rows_clean": 26731,
+      "rows_inv_app": 26731,
+      "groups": 13656
+    },
+    {
+      "pub_file_year": 2003,
+      "rows_seen": 184111,
+      "rows_clean": 37046,
+      "rows_inv_app": 37046,
+      "groups": 18481
+    },
+    {
+      "pub_file_year": 2004,
+      "rows_seen": 195634,
+      "rows_clean": 40087,
+      "rows_inv_app": 40087,
+      "groups": 17176
+    },
+    {
+      "pub_file_year": 2005,
+      "rows_seen": 246164,
+      "rows_clean": 70213,
+      "rows_inv_app": 70213,
+      "groups": 29058
+    },
+    {
+      "pub_file_year": 2006,
+      "rows_seen": 304807,
+      "rows_clean": 83795,
+      "rows_inv_app": 83795,
+      "groups": 30493
+    },
+    {
+      "pub_file_year": 2007,
+      "rows_seen": 407786,
+      "rows_clean": 99575,
+      "rows_inv_app": 99575,
+      "groups": 34837
+    },
+    {
+      "pub_file_year": 2008,
+      "rows_seen": 501435,
+      "rows_clean": 140110,
+      "rows_inv_app": 140110,
+      "groups": 45673
+    },
+    {
+      "pub_file_year": 2009,
+      "rows_seen": 661066,
+      "rows_clean": 175393,
+      "rows_inv_app": 175393,
+      "groups": 57990
+    },
+    {
+      "pub_file_year": 2010,
+      "rows_seen": 928892,
+      "rows_clean": 176738,
+      "rows_inv_app": 176738,
+      "groups": 60394
+    },
+    {
+      "pub_file_year": 2011,
+      "rows_seen": 1113642,
+      "rows_clean": 204426,
+      "rows_inv_app": 204426,
+      "groups": 68581
+    },
+    {
+      "pub_file_year": 2012,
+      "rows_seen": 1565092,
+      "rows_clean": 322003,
+      "rows_inv_app": 322003,
+      "groups": 96158
+    },
+    {
+      "pub_file_year": 2013,
+      "rows_seen": 1849408,
+      "rows_clean": 501577,
+      "rows_inv_app": 501577,
+      "groups": 124691
+    },
+    {
+      "pub_file_year": 2014,
+      "rows_seen": 1877285,
+      "rows_clean": 630114,
+      "rows_inv_app": 630114,
+      "groups": 146957
+    },
+    {
+      "pub_file_year": 2015,
+      "rows_seen": 2435017,
+      "rows_clean": 839512,
+      "rows_inv_app": 839512,
+      "groups": 182098
+    },
+    {
+      "pub_file_year": 2016,
+      "rows_seen": 2598155,
+      "rows_clean": 901635,
+      "rows_inv_app": 901635,
+      "groups": 195241
+    },
+    {
+      "pub_file_year": 2017,
+      "rows_seen": 2860285,
+      "rows_clean": 1107465,
+      "rows_inv_app": 1107465,
+      "groups": 236333
+    },
+    {
+      "pub_file_year": 2018,
+      "rows_seen": 3695711,
+      "rows_clean": 1390289,
+      "rows_inv_app": 1390289,
+      "groups": 286226
+    },
+    {
+      "pub_file_year": 2019,
+      "rows_seen": 3827095,
+      "rows_clean": 1389566,
+      "rows_inv_app": 1389566,
+      "groups": 314115
+    },
+    {
+      "pub_file_year": 2020,
+      "rows_seen": 4852120,
+      "rows_clean": 1326786,
+      "rows_inv_app": 1326786,
+      "groups": 325741
+    },
+    {
+      "pub_file_year": 2021,
+      "rows_seen": 6017671,
+      "rows_clean": 1547203,
+      "rows_inv_app": 1547203,
+      "groups": 396452
+    },
+    {
+      "pub_file_year": 2022,
+      "rows_seen": 5731871,
+      "rows_clean": 1506231,
+      "rows_inv_app": 1506231,
+      "groups": 385359
+    },
+    {
+      "pub_file_year": 2023,
+      "rows_seen": 4919838,
+      "rows_clean": 1511291,
+      "rows_inv_app": 1511291,
+      "groups": 366836
+    },
+    {
+      "pub_file_year": 2024,
+      "rows_seen": 6562583,
+      "rows_clean": 1366839,
+      "rows_inv_app": 1366839,
+      "groups": 632112
+    },
+    {
+      "pub_file_year": 2025,
+      "rows_seen": 5211133,
+      "rows_clean": 528110,
+      "rows_inv_app": 528110,
+      "groups": 245577
+    }
+  ],
+  "output_csv": "/Users/mac/computerscience/23实证选题探索/T10/data/processed/overall_tech_entry_ddd_panel_2008_2023.csv",
+  "output_dta": "/Users/mac/computerscience/23实证选题探索/T10/data/processed/overall_tech_entry_ddd_panel_2008_2023.dta"
+}
