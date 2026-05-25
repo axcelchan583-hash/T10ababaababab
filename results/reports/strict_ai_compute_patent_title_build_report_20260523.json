@@ -1,0 +1,13 @@
+{
+  "source_zip": "/Users/mac/computerscience/第三方资料/01_数据资源/国泰安/第三方数据资源/上市公司数据相关信息/专利明细情况093018090(仅供哈佛大学使用).zip",
+  "raw_rows_after_header": 190685,
+  "rows_with_grant_date_before_dedup": 139097,
+  "rows_after_dedup": 102349,
+  "firms": 2307,
+  "year_min": 1981,
+  "year_max": 2025,
+  "strict_ai_title_invention_total": 161,
+  "ai_compute_title_invention_total": 688,
+  "annual_rows": 10626,
+  "output_csv": "/Users/mac/computerscience/23选题探索/T10/outputs/strict_ai_compute_patent_title_annual.csv"
+}

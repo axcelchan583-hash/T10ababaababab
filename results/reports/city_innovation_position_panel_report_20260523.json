@@ -1,0 +1,12 @@
+{
+  "rows":7450,
+  "cities":298,
+  "year_min":2000,
+  "year_max":2024,
+  "idc_matched_rows":6750,
+  "idc_unmatched_rows_treated_as_zero":700,
+  "city_with_any_idc_stock":203,
+  "negative_nonlisted_invgrant_rows":61,
+  "output_csv":"\/Users\/mac\/computerscience\/23选题探索\/T10\/outputs\/city_innovation_position_panel_2000_2024.csv",
+  "output_dta":"\/Users\/mac\/computerscience\/23选题探索\/T10\/outputs\/city_innovation_position_panel_2000_2024.dta"
+}

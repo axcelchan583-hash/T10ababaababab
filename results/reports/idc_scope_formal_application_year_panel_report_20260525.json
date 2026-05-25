@@ -1,0 +1,21 @@
+{
+  "rows": 6149,
+  "cities": 443,
+  "years": [
+    2008,
+    2023
+  ],
+  "cities_with_scope_stock": 137,
+  "cities_with_scope_pre5": 134,
+  "provinces_with_scope_stock": 30,
+  "main_x": "ln1p_idc_scope_stock_l1",
+  "robustness_x": [
+    "ln1p_idc_scope_new_l1",
+    "ln1p_idc_scope_pre5_l1",
+    "ln1p_idc_scope_prov_stock_l1",
+    "ln1p_idc_registered_stock_l1",
+    "ln1p_idc_combined_stock_l1"
+  ],
+  "output_csv": "/Users/mac/computerscience/23选题探索/T10/data/processed/idc_scope_formal_application_year_panel_2008_2023.csv",
+  "output_dta": "/Users/mac/computerscience/23选题探索/T10/data/processed/idc_scope_formal_application_year_panel_2008_2023.dta"
+}

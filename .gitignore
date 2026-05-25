@@ -1,0 +1,31 @@
+.DS_Store
+*.log
+*.dta
+*.xlsx
+*.xls
+*.rar
+*.zip
+*.7z
+*.gz
+__pycache__/
+*.py[cod]
+
+# Compatibility/output folders and logs
+outputs/
+results/logs/
+
+# Raw or local-only data
+data/raw/*
+!data/raw/README.md
+data/external_proxy/*.jpg
+
+# Oversized or legacy generated panels not needed for review
+data/processed/*controls_panel*
+data/processed/*rebuild*
+data/processed/*2025_pilot*
+data/processed/*digital_ai*
+data/processed/csmar_controls*
+data/processed/city_applicant_counts_application_year/
+
+# Office temp files
+~$*

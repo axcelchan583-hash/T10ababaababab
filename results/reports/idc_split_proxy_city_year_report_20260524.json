@@ -1,0 +1,13 @@
+{
+  "detail_rows": 3277,
+  "scope_nonempty_old": 306,
+  "scope_nonempty_clean": 356,
+  "registered_city_nonempty": 2845,
+  "scope_license_rows": 743,
+  "registered_license_rows": 2462,
+  "combined_license_rows": 2915,
+  "province_scope_terms_seen": 41,
+  "scope_cities": 137,
+  "registered_cities": 177,
+  "combined_cities": 213
+}

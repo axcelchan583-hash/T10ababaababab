@@ -1,0 +1,14 @@
+{
+  "rows":6149,
+  "cities":443,
+  "years":[
+    2008,
+    2023
+  ],
+  "idc_matched_rows":4647,
+  "idc_unmatched_rows_treated_as_zero":1502,
+  "matched_cities":291,
+  "cities_with_any_idc_stock":207,
+  "output_csv":"\/Users\/mac\/computerscience\/23选题探索\/T10\/data\/processed\/idc_applicant_concentration_application_year_panel_2008_2023.csv",
+  "output_dta":"\/Users\/mac\/computerscience\/23选题探索\/T10\/data\/processed\/idc_applicant_concentration_application_year_panel_2008_2023.dta"
+}

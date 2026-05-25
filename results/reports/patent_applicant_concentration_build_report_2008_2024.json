@@ -1,0 +1,15 @@
+{
+  "start_year": 2008,
+  "end_year": 2024,
+  "warmup_start_year": 2000,
+  "rows": 18329,
+  "cities": 444,
+  "scopes": [
+    "all_pub",
+    "inv_app_pub",
+    "inv_grant_pub"
+  ],
+  "output_csv": "/Users/mac/computerscience/23选题探索/T10/data/processed/patent_applicant_concentration_city_year_2008_2024.csv",
+  "output_dta": "/Users/mac/computerscience/23选题探索/T10/data/processed/patent_applicant_concentration_city_year_2008_2024.dta",
+  "year_report_csv": "/Users/mac/computerscience/23选题探索/T10/results/reports/patent_applicant_concentration_build_report_2008_2024.csv"
+}

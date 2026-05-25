@@ -1,0 +1,72 @@
+{
+  "source_file": "/Users/mac/computerscience/23选题探索/T07_public_data_ai_adoption/data/interim/firm_month_hiring_patent_panel.csv",
+  "method": "public-formula-style diagnostic rebuild using available listed-firm patent grant data",
+  "important_caveats": [
+    "2025 patent grant records in the current local data are extremely sparse.",
+    "The current data has patent_grant_count and invention_grant_count, but not patent application counts.",
+    "City benchmark is listed-firm city aggregate from the same local data, not all-city patent totals in the public 2000-2024 package.",
+    "Therefore only resilience 1 and 3 are constructed; resilience 2 and 4 are not constructed."
+  ],
+  "annual_totals": {
+    "2022": {
+      "rows": 5732,
+      "firms": 5732,
+      "months_min": 5,
+      "months_max": 5,
+      "patent_grant_count": 3506.0,
+      "invention_grant_count": 1453.0,
+      "firms_with_any_grant": 399,
+      "firms_with_any_invention_grant": 307
+    },
+    "2023": {
+      "rows": 5732,
+      "firms": 5732,
+      "months_min": 12,
+      "months_max": 12,
+      "patent_grant_count": 8823.0,
+      "invention_grant_count": 4168.0,
+      "firms_with_any_grant": 574,
+      "firms_with_any_invention_grant": 483
+    },
+    "2024": {
+      "rows": 5732,
+      "firms": 5732,
+      "months_min": 12,
+      "months_max": 12,
+      "patent_grant_count": 7024.0,
+      "invention_grant_count": 3700.0,
+      "firms_with_any_grant": 502,
+      "firms_with_any_invention_grant": 439
+    },
+    "2025": {
+      "rows": 5732,
+      "firms": 5732,
+      "months_min": 12,
+      "months_max": 12,
+      "patent_grant_count": 349.0,
+      "invention_grant_count": 162.0,
+      "firms_with_any_grant": 88,
+      "firms_with_any_invention_grant": 63
+    }
+  },
+  "nonmissing_by_year": {
+    "2022": {
+      "企业创新韧性1_2025诊断版": 0,
+      "企业创新韧性3_2025诊断版": 0
+    },
+    "2023": {
+      "企业创新韧性1_2025诊断版": 403,
+      "企业创新韧性3_2025诊断版": 501
+    },
+    "2024": {
+      "企业创新韧性1_2025诊断版": 407,
+      "企业创新韧性3_2025诊断版": 461
+    },
+    "2025": {
+      "企业创新韧性1_2025诊断版": 56,
+      "企业创新韧性3_2025诊断版": 80
+    }
+  },
+  "output_full": "/Users/mac/computerscience/23选题探索/T10/outputs/innovation_resilience_2022_2025_pilot_existing_data.csv",
+  "output_2025": "/Users/mac/computerscience/23选题探索/T10/outputs/innovation_resilience_2025_pilot_existing_data.csv"
+}

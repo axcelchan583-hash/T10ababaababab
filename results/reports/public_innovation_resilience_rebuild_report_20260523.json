@@ -1,0 +1,48 @@
+{
+  "raw_firm_rows": 68851,
+  "raw_city_rows": 7450,
+  "rebuilt_rows": 68851,
+  "product_rows": 68851,
+  "merge_status_counts": {
+    "both": 68851,
+    "left_only": 0,
+    "right_only": 0
+  },
+  "year_min": 2000,
+  "year_max": 2024,
+  "firm_count": 5732,
+  "checks": {
+    "企业创新韧性1": {
+      "product_nonmissing": 36189,
+      "rebuilt_nonmissing": 36189,
+      "matched_or_both_missing": 68851,
+      "mismatch_count": 0,
+      "max_abs_diff": 0.00018988715282830526,
+      "mean_abs_diff": 3.116981031668088e-07
+    },
+    "企业创新韧性2": {
+      "product_nonmissing": 46658,
+      "rebuilt_nonmissing": 46658,
+      "matched_or_both_missing": 68851,
+      "mismatch_count": 0,
+      "max_abs_diff": 0.00037472747044375865,
+      "mean_abs_diff": 3.6325038068851383e-07
+    },
+    "企业创新韧性3": {
+      "product_nonmissing": 45571,
+      "rebuilt_nonmissing": 45571,
+      "matched_or_both_missing": 68851,
+      "mismatch_count": 0,
+      "max_abs_diff": 0.001065340908098733,
+      "mean_abs_diff": 6.656384555157935e-07
+    },
+    "企业创新韧性4": {
+      "product_nonmissing": 47064,
+      "rebuilt_nonmissing": 47064,
+      "matched_or_both_missing": 68851,
+      "mismatch_count": 0,
+      "max_abs_diff": 2.295882612912692e-07,
+      "mean_abs_diff": 1.9360812308517888e-08
+    }
+  }
+}

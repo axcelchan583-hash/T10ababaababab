@@ -1,0 +1,18 @@
+{
+  "rows":18329,
+  "cities":444,
+  "years":[
+    2008,
+    2024
+  ],
+  "scopes":[
+    "all_pub",
+    "inv_app_pub",
+    "inv_grant_pub"
+  ],
+  "idc_matched_rows":14790,
+  "idc_unmatched_rows_treated_as_zero":3539,
+  "cities_with_any_idc_stock":209,
+  "output_csv":"\/Users\/mac\/computerscience\/23选题探索\/T10\/data\/processed\/idc_applicant_concentration_panel_2008_2024.csv",
+  "output_dta":"\/Users\/mac\/computerscience\/23选题探索\/T10\/data\/processed\/idc_applicant_concentration_panel_2008_2024.dta"
+}

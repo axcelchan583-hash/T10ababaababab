@@ -1,0 +1,2 @@
+﻿rows_seen,rows_valid,rows_missing_city_or_applicant,rows_inv_app,rows_inv_grant,all_pub_city_applicant_pairs,all_pub_seen_pairs,inv_app_pub_city_applicant_pairs,inv_app_pub_seen_pairs,inv_grant_pub_city_applicant_pairs,inv_grant_pub_seen_pairs,year
+6562583,6161991,400591,2574822,960947,852888,852888,393600,393600,219868,219868,2024

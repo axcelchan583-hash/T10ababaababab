@@ -1,0 +1,13 @@
+{
+  "detail_path": "/Users/mac/computerscience/23选题探索/T10/data/processed/city_applicant_counts_application_year/city_applicant_counts_inv_app_appyear_2000_2023.csv.gz",
+  "detail_rows": 2850367,
+  "output_rows": 6149,
+  "cities": 443,
+  "years": [
+    2008,
+    2023
+  ],
+  "scope": "inv_app_appyear",
+  "output_csv": "/Users/mac/computerscience/23选题探索/T10/data/processed/patent_applicant_concentration_application_year_2008_2023.csv",
+  "output_dta": "/Users/mac/computerscience/23选题探索/T10/data/processed/patent_applicant_concentration_application_year_2008_2023.dta"
+}

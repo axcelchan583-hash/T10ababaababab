@@ -1,0 +1,13 @@
+{
+  "raw_rows":5760,
+  "raw_cities":286,
+  "raw_year_min":2003,
+  "raw_year_max":2024,
+  "keyword_count":52,
+  "panel_rows":7450,
+  "panel_matched_rows":5760,
+  "panel_unmatched_rows":1690,
+  "matched_cities":286,
+  "output_csv":"\/Users\/mac\/computerscience\/23选题探索\/T10\/outputs\/city_innovation_position_with_ndi_textindex_2003_2024.csv",
+  "output_dta":"\/Users\/mac\/computerscience\/23选题探索\/T10\/outputs\/city_innovation_position_with_ndi_textindex_2003_2024.dta"
+}

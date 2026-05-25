@@ -1,0 +1,21 @@
+{
+  "pub_start_year": 2024,
+  "pub_end_year": 2024,
+  "warmup_start_year": 2000,
+  "start_year": 2008,
+  "end_year": 2023,
+  "baseline_years": [
+    2008,
+    2010
+  ],
+  "rolling_window": 3,
+  "top_n": 10,
+  "scopes": [
+    "inv_app_appyear"
+  ],
+  "rows": 2868,
+  "cities": 417,
+  "output_csv": "/Users/mac/computerscience/23选题探索/T10/data/processed/patent_applicant_concentration_application_year_2008_2023.csv",
+  "output_dta": "/Users/mac/computerscience/23选题探索/T10/data/processed/patent_applicant_concentration_application_year_2008_2023.dta",
+  "report_csv": "/Users/mac/computerscience/23选题探索/T10/results/reports/patent_applicant_concentration_application_year_build_report_2008_2023.csv"
+}
