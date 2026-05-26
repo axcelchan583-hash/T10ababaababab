@@ -48,6 +48,7 @@ ChatGPT Pro 诊断后，当前主线曾改为：
 - [全量专利申请人集中度第一轮结果](docs/memos/full_patent_applicant_concentration_first_round_20260524.md)
 - [组会简报：当前设计与待判断问题](docs/design/group_meeting_brief_20260525.md)
 - [新进入机制与异质性第一轮结果](docs/memos/entry_mechanism_heterogeneity_first_round_20260525.md)
+- [政策 horse-race 与授权/高价值口径补充结果](docs/memos/policy_horserace_and_appyear_quality_20260526.md)
 
 ## 阶段性结论
 
@@ -167,6 +168,7 @@ X 来自城市政府工作报告中 52 个新型数字基础设施关键词。
 - `results/tables/idc_resilience_with_controls_results_20260523.csv`：IDC 代理 X 与企业创新韧性，含控制变量。
 - `results/tables/data_infra_resilience_with_controls_results_20260523.csv`：大数据试验区 X 与企业创新韧性，含控制变量。
 - `results/tables/idc_applicant_concentration_results_20260524.csv`：IDC 代理 X 与全量专利申请人集中度、新进入申请人。
+- `results/tables/appyear_quality_robustness_results_20260526.csv`：申请年份授权/高价值口径稳健性。
 
 ## 下一步
 
@@ -240,6 +242,29 @@ X 来自城市政府工作报告中 52 个新型数字基础设施关键词。
 - `data/processed/top_applicants/city_year_top20_applicants_inv_app_appyear_2008_2023.csv`
 - `data/processed/top_applicants/baseline_2008_2010_top20_applicants_inv_app_appyear.csv`
 - `data/processed/top_applicants/city_year_top20_type_summary_inv_app_appyear_2008_2023.csv`
+
+## 2026-05-26 补充：政策 horse-race 与授权/高价值口径
+
+已补申请年份质量口径：
+
+- 发明授权按申请年份；
+- 发明授权按授权公告年份；
+- 发明授权且被引按申请年份；
+- 发明授权且家族被引按申请年份。
+
+核心结论：
+
+- `new_applicant_share` 在质量口径下方向多为正，但强固定效应下不显著；
+- `ln1p_new_applicants` 和 `ln1p_new_patents` 在发明授权申请年、家族被引授权申请年口径下显著为正；
+- 因此可以写“新进入授权/高价值相关专利数量扩张”，但不能写“高质量新进入份额稳健提升”。
+
+政策 horse-race 尚未正式跑出结果，因为本地没有已清洗的城市-年份政策面板。已生成模板和脚本：
+
+- `data/external_proxy/city_policy_horserace_template_2008_2023.csv`
+- `scripts/build_policy_horserace_panel.py`
+- `scripts/run_policy_horserace_stata.do`
+
+待补政策变量包括宽带中国、智慧城市、大数据综合试验区、创新型城市、国家高新区、知识产权示范城市、信息消费试点、电子商务示范城市。
 
 粗分类显示，城市-年份 Top20 申请人中的专利量约一半来自企业，约四成来自高校，说明后续机制不能只按“企业/上市公司吸收能力”写，需要单独识别高校科研型头部。
 

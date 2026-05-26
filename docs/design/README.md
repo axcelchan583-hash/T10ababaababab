@@ -66,6 +66,41 @@ IDC 稳健提高企业新进入份额。
 但机制口径要谨慎：高算力领域额外更强，组织/企业进入和授权质量尚未打赢。
 ```
 
+## 2026-05-26 补充：政策 horse-race 与授权/高价值口径
+
+已补申请年份口径下的授权/高价值稳健性：
+
+- `inv_grant_appyear`：发明授权，按申请年份归年；
+- `inv_grant_grantyear`：发明授权，按授权公告年份归年；
+- `inv_grant_cited_appyear`：发明授权且被引，按申请年份归年；
+- `inv_grant_familycited_appyear`：发明授权且家族被引，按申请年份归年。
+
+核心判断：
+
+```text
+质量口径支持“新进入数量扩张”：新进入申请人数量和新进入授权专利数多为正，
+在发明授权申请年、家族被引授权申请年口径下较明显。
+但质量口径的 new_applicant_share 在强固定效应下未显著，
+不能写成“高质量新进入份额稳健提升”。
+```
+
+政策 horse-race 当前没有完成实证表，因为本地尚未发现可直接合并的城市-年份政策面板。已落地模板和脚本：
+
+- `../../data/external_proxy/city_policy_horserace_template_2008_2023.csv`
+- `../../scripts/build_policy_horserace_panel.py`
+- `../../scripts/run_policy_horserace_stata.do`
+
+需要补齐后才能跑：
+
+```text
+宽带中国、智慧城市、大数据综合试验区、创新型城市、
+国家高新区、知识产权示范城市、信息消费试点、电子商务示范城市。
+```
+
+详见：
+
+- `../memos/policy_horserace_and_appyear_quality_20260526.md`
+
 ## 企业层面补充试验
 
 2026-05-25 已完成企业申请人口径和城市 × 技术领域 × 年份 DDD 第一轮。
