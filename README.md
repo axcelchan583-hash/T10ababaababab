@@ -51,6 +51,8 @@ ChatGPT Pro 诊断后，当前主线曾改为：
 - [政策 horse-race 与授权/高价值口径补充结果](docs/memos/policy_horserace_and_appyear_quality_20260526.md)
 - [政策名单源头第一轮](docs/memos/policy_list_source_scan_20260527.md)
 - [政策 horse-race 第一版结果](docs/memos/policy_horserace_preliminary_results_20260527.md)
+- [当前结果外部评审 brief](docs/memos/current_results_external_review_brief_20260527.md)
+- [给网页版深度评审的 prompt](chat/web_deep_review_prompt_current_results_20260527.md)
 
 ## 阶段性结论
 
