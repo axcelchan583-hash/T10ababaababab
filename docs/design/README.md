@@ -101,6 +101,18 @@ IDC 稳健提高企业新进入份额。
 
 - `../memos/policy_horserace_and_appyear_quality_20260526.md`
 
+2026-05-27 已补第一版政策 seed list，并跑出 preliminary horse-race：
+
+- 已进入控制：宽带中国、国家大数据综合试验区、创新型城市、知识产权示范城市；
+- 待补：智慧城市、国家高新区、知识产权示范城市后续批次；
+- 结果：`new_applicant_share` 在政策控制后仍显著为正，在政策控制 + 基期能力趋势控制后边际显著为正；
+- 集中度变量 `hhi/top10_share` 在加入政策控制后不再稳。
+
+详见：
+
+- `../memos/policy_list_source_scan_20260527.md`
+- `../memos/policy_horserace_preliminary_results_20260527.md`
+
 ## 企业层面补充试验
 
 2026-05-25 已完成企业申请人口径和城市 × 技术领域 × 年份 DDD 第一轮。

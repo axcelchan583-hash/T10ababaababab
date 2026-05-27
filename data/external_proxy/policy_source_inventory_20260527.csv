@@ -1,0 +1,9 @@
+﻿policy_name,status,priority,source,next_step
+broadband_china_pilot,seed_list_ready,must_have,MIIT/NDRC 2014 html; MIIT 2015 PDF; CAC/MIIT 2016 mirror,城市别名映射后可展开成 city-year dummy
+innovative_city_pilot,seed_list_ready_partial,must_have,MOST/NDRC 2016 PDF and 2018 HTML,确认2010前后是否有更早批次；现有表可作为2016/2018后置控制
+bigdata_comprehensive_pilot,source_ready_region_level,must_have,MIIT report on seven zones after Guizhou,先做省/区域 broad coding；province-year FE 下会被吸收的省级部分需说明
+smart_city_pilot,source_located_not_fully_extracted,must_have,2014 list found; 2012/2013 lists need extraction or purchased DID data,优先下载/购买三批国家智慧城市试点 DID，或从网页/PDF抽取三批290个试点单位
+national_hightech_zone,source_located_needs_table_extraction,must_have,Torch Center national high-tech zone list; official page has approval date but local access blocked,用官方页面/转载表抽高新区名称、批准年月、所属地级市；最好构造 count
+ip_demo_city,seed_list_first_two_batches_ready,must_have,Gov.cn/CNIPA 2012 and 2013 pages; later 2015/2016/2018/2019 batches need补齐,继续补后续批次，或用CNIPA原国家知识产权示范城市名单做存量dummy
+information_consumption_pilot,not_found_yet,optional,not yet,若时间紧，先不放主horse-race
+ecommerce_demo_city,not_found_yet,optional,not yet,若时间紧，先不放主horse-race

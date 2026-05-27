@@ -68,6 +68,15 @@ def main() -> None:
     out = main.merge(policy, on=["city", "year"], how="left", validate="m:1")
     for col in available:
         out[col] = out[col].fillna(0).astype("int8")
+    if "new_patents" in out.columns and "ln1p_new_patents" not in out.columns:
+        out["ln1p_new_patents"] = np.log1p(pd.to_numeric(out["new_patents"], errors="coerce").fillna(0))
+    if "incumbent_patents" not in out.columns and {"total_patents", "new_patents"}.issubset(out.columns):
+        out["incumbent_patents"] = (
+            pd.to_numeric(out["total_patents"], errors="coerce").fillna(0)
+            - pd.to_numeric(out["new_patents"], errors="coerce").fillna(0)
+        )
+    if "incumbent_patents" in out.columns and "ln1p_incumbent_patents" not in out.columns:
+        out["ln1p_incumbent_patents"] = np.log1p(pd.to_numeric(out["incumbent_patents"], errors="coerce").clip(lower=0).fillna(0))
     out["policy_horserace_controls"] = ",".join(available)
     out["merge_policy_horserace"] = np.where(out[available].notna().any(axis=1), "both_or_zero", "left_only")
 

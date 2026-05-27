@@ -7,7 +7,7 @@ local tables "`root'/results/tables"
 local logs "`root'/results/logs"
 
 capture log close
-log using "`logs'/run_policy_horserace_stata_20260526.log", text replace
+log using "`logs'/run_policy_horserace_stata_20260527.log", text replace
 
 use "`data'/idc_scope_policy_horserace_panel_2008_2023.dta", clear
 keep if merge_idc_split == "both"
@@ -42,7 +42,7 @@ postfile `h' ///
     long N N_city ///
     double mean_y ///
     str160 controls ///
-    using "`tables'/policy_horserace_results_20260526.dta", replace
+    using "`tables'/policy_horserace_results_20260527.dta", replace
 
 local outcomes ///
     new_applicant_share ///
@@ -107,7 +107,7 @@ postclose `h'
 use "`tables'/policy_horserace_results_20260526.dta", clear
 gen sig = cond(p < 0.01, "***", cond(p < 0.05, "**", cond(p < 0.1, "*", "")))
 order spec outcome coef se t p sig N N_city mean_y controls
-export delimited using "`tables'/policy_horserace_results_20260526.csv", replace
+export delimited using "`tables'/policy_horserace_results_20260527.csv", replace
 list, noobs abbrev(28)
 
 log close

@@ -1,0 +1,22 @@
+spec,outcome,coef,se,t,p,sig,N,N_city,mean_y,controls
+province_year_fe,new_applicant_share,.0430022324725301,.0093594715,4.5945153,6.4772289e-06,***,4647,291,.4323355655967836,none
+policy_horserace,new_applicant_share,.0317890222071165,.010870226,2.9244125,.003723372,***,4647,291,.4323355655967836,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city
+policy_baseyr_fe,new_applicant_share,.0206418619489083,.011154221,1.8505875,.065245792,*,4647,291,.4323355655967836,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city
+province_year_fe,ln1p_new_applicants,.0245989248108153,.040013891,.61475962,.53919554,,4647,291,4.614966163841457,none
+policy_horserace,ln1p_new_applicants,.0767895304741451,.049296428,1.5577098,.12039265,,4647,291,4.614966163841457,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city
+policy_baseyr_fe,ln1p_new_applicants,.0994766149710218,.045865599,2.1688721,.030904949,**,4647,291,4.614966163841457,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city
+province_year_fe,ln1p_new_patents,-.0100194275432148,.04688612,-.21369711,.83093345,,4647,291,5.279912800852183,none
+policy_horserace,ln1p_new_patents,.0600308134985357,.05773361,1.0397897,.29930374,,4647,291,5.279912800852183,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city
+policy_baseyr_fe,ln1p_new_patents,.0933834645158368,.055504661,1.6824437,.093559161,*,4647,291,5.279912800852183,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city
+province_year_fe,ln1p_total_patents,-.0205253338987787,.040339526,-.50881445,.61126918,,4647,291,6.219256666685361,none
+policy_horserace,ln1p_total_patents,.0303502204185656,.050023459,.60671979,.54451156,,4647,291,6.219256666685361,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city
+policy_baseyr_fe,ln1p_total_patents,.0620861183164192,.048735056,1.2739519,.20370048,,4647,291,6.219256666685361,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city
+province_year_fe,ln1p_incumbent_patents,-.1348003636894202,.044988375,-2.9963377,.0029685877,***,4647,291,5.600413945990899,none
+policy_horserace,ln1p_incumbent_patents,-.0462898929405976,.051945396,-.89112598,.37360033,,4647,291,5.600413945990899,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city
+policy_baseyr_fe,ln1p_incumbent_patents,.0154912653715049,.050189663,.30865452,.75780594,,4647,291,5.600413945990899,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city
+province_year_fe,hhi,.0106419942534311,.0063290349,1.6814561,.093750909,*,4647,291,.0606716210857318,none
+policy_horserace,hhi,.0079081968431435,.0081579695,.969383,.33316192,,4647,291,.0606716210857318,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city
+policy_baseyr_fe,hhi,.0030599702870429,.0083940309,.3645412,.71571958,,4647,291,.0606716210857318,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city
+province_year_fe,top10_share,.0306680637558382,.013599964,2.2550106,.024878358,**,4647,291,.4544191153075489,none
+policy_horserace,top10_share,.004812164450652,.012618668,.38135278,.70322073,,4647,291,.4544191153075489,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city
+policy_baseyr_fe,top10_share,-.0073070226676542,.012138028,-.60199422,.54764831,,4647,291,.4544191153075489,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city

@@ -1,0 +1,16 @@
+﻿outcome,spec,coef,se,p,sig,N,N_city,controls
+new_applicant_share,province_year_fe,0.0430022324725301,0.0093594715,6.4772289e-06,***,4647,291,none
+new_applicant_share,policy_horserace,0.0317890222071165,0.010870226,0.003723372,***,4647,291,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city
+new_applicant_share,policy_baseyr_fe,0.0206418619489083,0.011154221,0.065245792,*,4647,291,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city
+ln1p_new_applicants,province_year_fe,0.0245989248108153,0.040013891,0.53919554,,4647,291,none
+ln1p_new_applicants,policy_horserace,0.0767895304741451,0.049296428,0.12039265,,4647,291,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city
+ln1p_new_applicants,policy_baseyr_fe,0.0994766149710218,0.045865599,0.030904949,**,4647,291,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city
+ln1p_new_patents,province_year_fe,-0.0100194275432148,0.04688612,0.83093345,,4647,291,none
+ln1p_new_patents,policy_horserace,0.0600308134985357,0.05773361,0.29930374,,4647,291,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city
+ln1p_new_patents,policy_baseyr_fe,0.0933834645158368,0.055504661,0.093559161,*,4647,291,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city
+hhi,province_year_fe,0.0106419942534311,0.0063290349,0.093750909,*,4647,291,none
+hhi,policy_horserace,0.0079081968431435,0.0081579695,0.33316192,,4647,291,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city
+hhi,policy_baseyr_fe,0.0030599702870429,0.0083940309,0.71571958,,4647,291,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city
+top10_share,province_year_fe,0.0306680637558382,0.013599964,0.024878358,**,4647,291,none
+top10_share,policy_horserace,0.004812164450652,0.012618668,0.70322073,,4647,291,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city
+top10_share,policy_baseyr_fe,-0.0073070226676542,0.012138028,0.54764831,,4647,291,broadband_china_pilot bigdata_comprehensive_pilot innovative_city_pilot ip_demo_city

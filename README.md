@@ -49,6 +49,8 @@ ChatGPT Pro 诊断后，当前主线曾改为：
 - [组会简报：当前设计与待判断问题](docs/design/group_meeting_brief_20260525.md)
 - [新进入机制与异质性第一轮结果](docs/memos/entry_mechanism_heterogeneity_first_round_20260525.md)
 - [政策 horse-race 与授权/高价值口径补充结果](docs/memos/policy_horserace_and_appyear_quality_20260526.md)
+- [政策名单源头第一轮](docs/memos/policy_list_source_scan_20260527.md)
+- [政策 horse-race 第一版结果](docs/memos/policy_horserace_preliminary_results_20260527.md)
 
 ## 阶段性结论
 
@@ -265,6 +267,21 @@ X 来自城市政府工作报告中 52 个新型数字基础设施关键词。
 - `scripts/run_policy_horserace_stata.do`
 
 待补政策变量包括宽带中国、智慧城市、大数据综合试验区、创新型城市、国家高新区、知识产权示范城市、信息消费试点、电子商务示范城市。
+
+2026-05-27 已进一步补出第一版政策 seed list：
+
+- `data/external_proxy/policy_seed_lists_20260527.csv`
+- `data/external_proxy/policy_source_inventory_20260527.csv`
+- `data/external_proxy/city_policy_horserace_panel_2008_2023.csv`
+- `results/tables/policy_horserace_results_20260527.csv`
+
+第一版 horse-race 控制了宽带中国、大数据综合试验区、创新型城市、知识产权示范城市。结果显示：
+
+- `new_applicant_share` 在政策控制后仍显著为正；
+- 加入政策控制和基期能力趋势控制后仍边际显著为正；
+- `hhi/top10_share` 在加入政策控制后不再稳。
+
+这进一步支持当前主线应收窄为“创新进入边界扩展”，不应主打“头部再集中”。
 
 粗分类显示，城市-年份 Top20 申请人中的专利量约一半来自企业，约四成来自高校，说明后续机制不能只按“企业/上市公司吸收能力”写，需要单独识别高校科研型头部。
 
