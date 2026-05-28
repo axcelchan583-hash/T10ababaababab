@@ -54,6 +54,7 @@ ChatGPT Pro 诊断后，当前主线曾改为：
 - [当前结果外部评审 brief](docs/memos/current_results_external_review_brief_20260527.md)
 - [审稿人防守补强第一轮：Y 清洗、X 拆分与质量口径](docs/memos/reviewer_round_y_cleaning_and_x_validation_20260528.md)
 - [城市×技术领域 DDD 主效应重跑：1985 预热期口径](docs/memos/overall_tech_ddd_main_effect_20260528.md)
+- [城市×技术领域 DDD 防守包：定义替换、政策交互、事件 DDD 与清洗样本](docs/memos/overall_tech_ddd_robustness_round_20260528.md)
 - [给网页版深度评审的 prompt](chat/web_deep_review_prompt_current_results_20260527.md)
 
 ## 阶段性结论
@@ -393,6 +394,26 @@ Y_{c,k,t} = beta * ln(1 + IDC_scope_stock_{c,t-1}) × HighCompute_k
 
 - `docs/memos/overall_tech_ddd_main_effect_20260528.md`
 - `docs/design/ddd_main_effect_update_20260528.md`
+
+随后已补 DDD 防守包：
+
+- HighCompute 定义替换：数量型新进入结果在 `broad`、`no_h04`、`G06/G16/G10L`、`G06 only` 下均显著；
+- 政策 × HighCompute 控制：加入宽带中国、大数据综合试验区、创新型城市、知识产权示范城市后，数量结果仍显著，份额降为边际显著；
+- 剔除个人和 one-shot：数量结果仍显著，field-level entrant share 仍有支持，但 city-level entrant share 不稳；
+- 事件 DDD：事件后长期数量变量转正，但远端前期显著为负，只能作为动态补充。
+
+最新写作边界：
+
+```text
+主 Y 应优先放新进入申请人数和新进入专利数；
+new applicant share 作为配套结构变量；
+事件 DDD 不替代连续强度 DDD 主识别。
+```
+
+详见：
+
+- `docs/memos/overall_tech_ddd_robustness_round_20260528.md`
+- `chat/outline/08_ddd_robustness_round_20260528.md`
 
 ## 新进入机制与异质性更新
 

@@ -94,3 +94,18 @@ IDC 服务覆盖与城市专利进入扩容相关，并且这种进入扩容在�
 2. 做事件 DDD，检查高算力领域处理前趋势。
 3. 做剔除个人 / one-shot entrants 的 DDD。
 4. 加政策 × HighCompute 控制。
+
+## 追加补强结果
+
+同日已完成上述四项第一轮防守检验。结论是：
+
+```text
+数量型新进入结果稳健；
+份额型结果对 HighCompute 定义和样本清洗更敏感；
+事件 DDD 有动态支持但前期不够干净，只能作补充。
+```
+
+具体见：
+
+- `../memos/overall_tech_ddd_robustness_round_20260528.md`
+- `../../chat/outline/08_ddd_robustness_round_20260528.md`

@@ -1,0 +1,389 @@
+{
+  "pub_start_year": 1985,
+  "pub_end_year": 2025,
+  "warmup_year": 1985,
+  "start_year": 2008,
+  "end_year": 2023,
+  "detail_rows": 12235382,
+  "panel_rows": 148704,
+  "cities": 291,
+  "variants": {
+    "broad": [
+      "B25J",
+      "G05B",
+      "G06C",
+      "G06D",
+      "G06E",
+      "G06F",
+      "G06G",
+      "G06J",
+      "G06K",
+      "G06M",
+      "G06N",
+      "G06Q",
+      "G06T",
+      "G06V",
+      "G10L",
+      "G16B",
+      "G16C",
+      "G16H",
+      "G16Y",
+      "H04B",
+      "H04L",
+      "H04M",
+      "H04N",
+      "H04W"
+    ],
+    "no_h04": [
+      "B25J",
+      "G05B",
+      "G06C",
+      "G06D",
+      "G06E",
+      "G06F",
+      "G06G",
+      "G06J",
+      "G06K",
+      "G06M",
+      "G06N",
+      "G06Q",
+      "G06T",
+      "G06V",
+      "G10L",
+      "G16B",
+      "G16C",
+      "G16H",
+      "G16Y"
+    ],
+    "g06_g16_g10l": [
+      "G06C",
+      "G06D",
+      "G06E",
+      "G06F",
+      "G06G",
+      "G06J",
+      "G06K",
+      "G06M",
+      "G06N",
+      "G06Q",
+      "G06T",
+      "G06V",
+      "G10L",
+      "G16B",
+      "G16C",
+      "G16H",
+      "G16Y"
+    ],
+    "g06_only": [
+      "G06C",
+      "G06D",
+      "G06E",
+      "G06F",
+      "G06G",
+      "G06J",
+      "G06K",
+      "G06M",
+      "G06N",
+      "G06Q",
+      "G06T",
+      "G06V"
+    ]
+  },
+  "samples": [
+    "all",
+    "no_individual",
+    "no_individual_no_oneshot",
+    "no_oneshot"
+  ],
+  "source_stats": [
+    {
+      "pub_file_year": 1985,
+      "rows_seen": 550,
+      "rows_clean": 188,
+      "rows_inv_app": 188,
+      "groups": 531
+    },
+    {
+      "pub_file_year": 1986,
+      "rows_seen": 6595,
+      "rows_clean": 2293,
+      "rows_inv_app": 2293,
+      "groups": 5134
+    },
+    {
+      "pub_file_year": 1987,
+      "rows_seen": 13265,
+      "rows_clean": 3107,
+      "rows_inv_app": 3107,
+      "groups": 9758
+    },
+    {
+      "pub_file_year": 1988,
+      "rows_seen": 20848,
+      "rows_clean": 3412,
+      "rows_inv_app": 3412,
+      "groups": 11171
+    },
+    {
+      "pub_file_year": 1989,
+      "rows_seen": 26561,
+      "rows_clean": 3825,
+      "rows_inv_app": 3825,
+      "groups": 12439
+    },
+    {
+      "pub_file_year": 1990,
+      "rows_seen": 26364,
+      "rows_clean": 4706,
+      "rows_inv_app": 4706,
+      "groups": 15564
+    },
+    {
+      "pub_file_year": 1991,
+      "rows_seen": 33744,
+      "rows_clean": 5037,
+      "rows_inv_app": 5037,
+      "groups": 16734
+    },
+    {
+      "pub_file_year": 1992,
+      "rows_seen": 47553,
+      "rows_clean": 6346,
+      "rows_inv_app": 6346,
+      "groups": 20640
+    },
+    {
+      "pub_file_year": 1993,
+      "rows_seen": 40058,
+      "rows_clean": 7952,
+      "rows_inv_app": 7952,
+      "groups": 25520
+    },
+    {
+      "pub_file_year": 1994,
+      "rows_seen": 52320,
+      "rows_clean": 9911,
+      "rows_inv_app": 9911,
+      "groups": 31605
+    },
+    {
+      "pub_file_year": 1995,
+      "rows_seen": 49359,
+      "rows_clean": 9301,
+      "rows_inv_app": 9301,
+      "groups": 29935
+    },
+    {
+      "pub_file_year": 1996,
+      "rows_seen": 50473,
+      "rows_clean": 9579,
+      "rows_inv_app": 9579,
+      "groups": 31031
+    },
+    {
+      "pub_file_year": 1997,
+      "rows_seen": 56086,
+      "rows_clean": 10539,
+      "rows_inv_app": 10539,
+      "groups": 33629
+    },
+    {
+      "pub_file_year": 1998,
+      "rows_seen": 66585,
+      "rows_clean": 11370,
+      "rows_inv_app": 11370,
+      "groups": 34889
+    },
+    {
+      "pub_file_year": 1999,
+      "rows_seen": 99831,
+      "rows_clean": 11706,
+      "rows_inv_app": 11706,
+      "groups": 34400
+    },
+    {
+      "pub_file_year": 2000,
+      "rows_seen": 110405,
+      "rows_clean": 14222,
+      "rows_inv_app": 14222,
+      "groups": 39945
+    },
+    {
+      "pub_file_year": 2001,
+      "rows_seen": 123118,
+      "rows_clean": 20186,
+      "rows_inv_app": 20186,
+      "groups": 48458
+    },
+    {
+      "pub_file_year": 2002,
+      "rows_seen": 141513,
+      "rows_clean": 26860,
+      "rows_inv_app": 26860,
+      "groups": 54976
+    },
+    {
+      "pub_file_year": 2003,
+      "rows_seen": 184111,
+      "rows_clean": 37123,
+      "rows_inv_app": 37123,
+      "groups": 74068
+    },
+    {
+      "pub_file_year": 2004,
+      "rows_seen": 195634,
+      "rows_clean": 40152,
+      "rows_inv_app": 40152,
+      "groups": 68771
+    },
+    {
+      "pub_file_year": 2005,
+      "rows_seen": 246164,
+      "rows_clean": 70248,
+      "rows_inv_app": 70248,
+      "groups": 116064
+    },
+    {
+      "pub_file_year": 2006,
+      "rows_seen": 304807,
+      "rows_clean": 83801,
+      "rows_inv_app": 83801,
+      "groups": 121509
+    },
+    {
+      "pub_file_year": 2007,
+      "rows_seen": 407786,
+      "rows_clean": 99619,
+      "rows_inv_app": 99619,
+      "groups": 138645
+    },
+    {
+      "pub_file_year": 2008,
+      "rows_seen": 501435,
+      "rows_clean": 140152,
+      "rows_inv_app": 140152,
+      "groups": 182055
+    },
+    {
+      "pub_file_year": 2009,
+      "rows_seen": 661066,
+      "rows_clean": 175400,
+      "rows_inv_app": 175400,
+      "groups": 229512
+    },
+    {
+      "pub_file_year": 2010,
+      "rows_seen": 928892,
+      "rows_clean": 176742,
+      "rows_inv_app": 176742,
+      "groups": 240295
+    },
+    {
+      "pub_file_year": 2011,
+      "rows_seen": 1113642,
+      "rows_clean": 204429,
+      "rows_inv_app": 204429,
+      "groups": 273637
+    },
+    {
+      "pub_file_year": 2012,
+      "rows_seen": 1565092,
+      "rows_clean": 322003,
+      "rows_inv_app": 322003,
+      "groups": 384642
+    },
+    {
+      "pub_file_year": 2013,
+      "rows_seen": 1849408,
+      "rows_clean": 501579,
+      "rows_inv_app": 501579,
+      "groups": 497782
+    },
+    {
+      "pub_file_year": 2014,
+      "rows_seen": 1877285,
+      "rows_clean": 630129,
+      "rows_inv_app": 630129,
+      "groups": 585324
+    },
+    {
+      "pub_file_year": 2015,
+      "rows_seen": 2435017,
+      "rows_clean": 839513,
+      "rows_inv_app": 839513,
+      "groups": 728733
+    },
+    {
+      "pub_file_year": 2016,
+      "rows_seen": 2598155,
+      "rows_clean": 901651,
+      "rows_inv_app": 901651,
+      "groups": 776213
+    },
+    {
+      "pub_file_year": 2017,
+      "rows_seen": 2860285,
+      "rows_clean": 1107468,
+      "rows_inv_app": 1107468,
+      "groups": 939013
+    },
+    {
+      "pub_file_year": 2018,
+      "rows_seen": 3695711,
+      "rows_clean": 1390293,
+      "rows_inv_app": 1390293,
+      "groups": 1128837
+    },
+    {
+      "pub_file_year": 2019,
+      "rows_seen": 3827095,
+      "rows_clean": 1389566,
+      "rows_inv_app": 1389566,
+      "groups": 1247093
+    },
+    {
+      "pub_file_year": 2020,
+      "rows_seen": 4852120,
+      "rows_clean": 1326794,
+      "rows_inv_app": 1326794,
+      "groups": 1287907
+    },
+    {
+      "pub_file_year": 2021,
+      "rows_seen": 6017671,
+      "rows_clean": 1547203,
+      "rows_inv_app": 1547203,
+      "groups": 1584676
+    },
+    {
+      "pub_file_year": 2022,
+      "rows_seen": 5731871,
+      "rows_clean": 1506231,
+      "rows_inv_app": 1506231,
+      "groups": 1546899
+    },
+    {
+      "pub_file_year": 2023,
+      "rows_seen": 4919838,
+      "rows_clean": 1511291,
+      "rows_inv_app": 1511291,
+      "groups": 1469381
+    },
+    {
+      "pub_file_year": 2024,
+      "rows_seen": 6562583,
+      "rows_clean": 1366839,
+      "rows_inv_app": 1366839,
+      "groups": 2419740
+    },
+    {
+      "pub_file_year": 2025,
+      "rows_seen": 5211133,
+      "rows_clean": 528110,
+      "rows_inv_app": 528110,
+      "groups": 958841
+    }
+  ],
+  "output_csv": "/Users/mac/computerscience/23实证选题探索/T10/data/processed/overall_tech_entry_ddd_robustness_panel_2008_2023.csv",
+  "output_dta": "/Users/mac/computerscience/23实证选题探索/T10/data/processed/overall_tech_entry_ddd_robustness_panel_2008_2023.dta"
+}

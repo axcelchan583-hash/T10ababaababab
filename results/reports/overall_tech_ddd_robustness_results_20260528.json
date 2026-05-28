@@ -1,0 +1,26 @@
+{
+  "panel_csv": "/Users/mac/computerscience/23实证选题探索/T10/data/processed/overall_tech_entry_ddd_robustness_panel_2008_2023.csv",
+  "results_csv": "/Users/mac/computerscience/23实证选题探索/T10/results/tables/overall_tech_ddd_robustness_results_20260528.csv",
+  "event_results_csv": "/Users/mac/computerscience/23实证选题探索/T10/results/tables/overall_tech_ddd_event_results_20260528.csv",
+  "rows": 384,
+  "event_rows": 128,
+  "variants": [
+    "broad",
+    "g06_g16_g10l",
+    "g06_only",
+    "no_h04"
+  ],
+  "samples": [
+    "all",
+    "no_individual",
+    "no_oneshot",
+    "no_individual_no_oneshot"
+  ],
+  "kept_policy_controls": [
+    "broadband_china_pilot",
+    "bigdata_comprehensive_pilot",
+    "innovative_city_pilot",
+    "ip_demo_city"
+  ],
+  "note": "Differenced DDD: high-compute minus low-compute within city-year; city and year FE; city-clustered SE."
+}
