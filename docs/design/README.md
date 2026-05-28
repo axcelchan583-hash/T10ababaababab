@@ -23,6 +23,7 @@
 - `chatgpt_pro_review_prompt_20260525.md`：可直接贴给 ChatGPT Pro / Claude 的评审 prompt。
 - `group_meeting_brief_20260525.md`：组会讨论版，一页式说明当前题目、主结果、企业层面异质性和希望老师判断的问题。
 - `reviewer_round_update_20260528.md`：根据外部审稿意见补充后的最新研究设计边界，重点是 X 表述降级、Y 清洗和投稿前防守项。
+- `ddd_main_effect_update_20260528.md`：将主效应/主识别调整为城市×技术领域×年份 DDD 后的设计更新。
 
 ## 当前判断
 
@@ -148,6 +149,45 @@ X 经验测度写“IDC 经营许可覆盖强度 / IDC 服务覆盖强度”；
 
 - `../memos/reviewer_round_y_cleaning_and_x_validation_20260528.md`
 - `reviewer_round_update_20260528.md`
+
+## 2026-05-28 追加：主效应改为城市×技术领域 DDD
+
+为降低城市年层面“城市对城市”比较的识别压力，已用 1985 预热期重建整体申请人城市×技术领域×年份 DDD 面板。
+
+新主识别：
+
+```text
+Y_cft = beta ln(1 + IDC_scope_stock_{c,t-1}) × HighCompute_f
+      + city × year FE
+      + city × HighCompute FE
+      + HighCompute × year FE
+      + error_cft
+```
+
+识别含义：
+
+```text
+同一个城市同一年，高算力依赖技术领域的新进入是否相对低算力领域更多。
+```
+
+1985 预热期重跑后：
+
+- 新进入申请人数：系数 0.2428，p < 0.001；
+- 新进入申请人专利数：系数 0.2833，p < 0.001；
+- 新进入申请人份额：系数 0.0326，p = 0.0201；
+- 限制高专利量城市后仍显著。
+
+当前设计调整为：
+
+```text
+城市年主效应作为背景事实；
+城市×技术领域 DDD 作为主效应/主识别。
+```
+
+详见：
+
+- `../memos/overall_tech_ddd_main_effect_20260528.md`
+- `ddd_main_effect_update_20260528.md`
 
 ## 企业层面补充试验
 

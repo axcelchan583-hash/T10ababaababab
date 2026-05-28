@@ -53,6 +53,7 @@ ChatGPT Pro 诊断后，当前主线曾改为：
 - [政策 horse-race 第一版结果](docs/memos/policy_horserace_preliminary_results_20260527.md)
 - [当前结果外部评审 brief](docs/memos/current_results_external_review_brief_20260527.md)
 - [审稿人防守补强第一轮：Y 清洗、X 拆分与质量口径](docs/memos/reviewer_round_y_cleaning_and_x_validation_20260528.md)
+- [城市×技术领域 DDD 主效应重跑：1985 预热期口径](docs/memos/overall_tech_ddd_main_effect_20260528.md)
 - [给网页版深度评审的 prompt](chat/web_deep_review_prompt_current_results_20260527.md)
 
 ## 阶段性结论
@@ -365,6 +366,33 @@ Y_{c,k,t} = beta * ln(1 + IDC_scope_stock_{c,t-1}) × HighCompute_k
 企业结果放在“技术领域异质性/补充机制”：
 高算力领域企业进入数量增加，但份额没有增加。
 ```
+
+2026-05-28 已进一步把整体申请人城市×技术领域×年份 DDD 升级为主效应/主识别：
+
+- 用 1985 年作为新进入申请人预热期重建 DDD 面板；
+- 样本为 2008-2023 年、291 个城市、城市×高算力/低算力×年份 9294 行；
+- 模型吸收 `city × year`、`city × HighCompute`、`HighCompute × year`；
+- 识别来自同一城市同一年中，高算力依赖技术领域相对低算力领域的新进入变化。
+
+主结果：
+
+- `ln1p_city_new_applicants_field`：0.2428，p < 0.001；
+- `ln1p_city_new_patents_field`：0.2833，p < 0.001；
+- `city_new_share_total_field`：0.0326，p = 0.0201；
+- 限制高专利量城市后仍显著。
+
+因此当前论文主线调整为：
+
+```text
+城市年回归作为背景事实；
+城市×技术领域 DDD 作为主效应/主识别；
+核心结论是 IDC 服务覆盖增强后，算力依赖型技术领域的新进入相对增加。
+```
+
+详见：
+
+- `docs/memos/overall_tech_ddd_main_effect_20260528.md`
+- `docs/design/ddd_main_effect_update_20260528.md`
 
 ## 新进入机制与异质性更新
 

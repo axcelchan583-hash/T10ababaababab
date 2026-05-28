@@ -1,0 +1,21 @@
+{
+  "panel_csv": "/Users/mac/computerscience/23实证选题探索/T10/data/processed/overall_tech_entry_ddd_panel_2008_2023.csv",
+  "results_csv": "/Users/mac/computerscience/23实证选题探索/T10/results/tables/overall_tech_ddd_main_results_20260528.csv",
+  "rows": 24,
+  "samples": [
+    "all",
+    "min20",
+    "min50"
+  ],
+  "outcomes": [
+    "ln1p_city_new_applicants_field",
+    "ln1p_city_new_patents_field",
+    "city_new_share_total_field",
+    "ln1p_field_new_applicants_field",
+    "ln1p_field_new_patents_field",
+    "field_new_share_total_field",
+    "ln1p_total_patents_field",
+    "ln1p_incumbent_patents_field"
+  ],
+  "note": "Differenced DDD: high-compute field minus other field within city-year; city and year FE; city-clustered SE."
+}

@@ -1,5 +1,5 @@
 {
-  "detail_rows": 2986600,
+  "detail_rows": 3070093,
   "panel_rows": 9294,
   "cities": 291,
   "years": [
@@ -34,88 +34,193 @@
   ],
   "source_stats": [
     {
+      "pub_file_year": 1985,
+      "rows_seen": 550,
+      "rows_clean": 188,
+      "rows_inv_app": 188,
+      "groups": 134
+    },
+    {
+      "pub_file_year": 1986,
+      "rows_seen": 6595,
+      "rows_clean": 2293,
+      "rows_inv_app": 2293,
+      "groups": 1288
+    },
+    {
+      "pub_file_year": 1987,
+      "rows_seen": 13265,
+      "rows_clean": 3107,
+      "rows_inv_app": 3107,
+      "groups": 2444
+    },
+    {
+      "pub_file_year": 1988,
+      "rows_seen": 20848,
+      "rows_clean": 3412,
+      "rows_inv_app": 3412,
+      "groups": 2798
+    },
+    {
+      "pub_file_year": 1989,
+      "rows_seen": 26561,
+      "rows_clean": 3825,
+      "rows_inv_app": 3825,
+      "groups": 3113
+    },
+    {
+      "pub_file_year": 1990,
+      "rows_seen": 26364,
+      "rows_clean": 4706,
+      "rows_inv_app": 4706,
+      "groups": 3893
+    },
+    {
+      "pub_file_year": 1991,
+      "rows_seen": 33744,
+      "rows_clean": 5037,
+      "rows_inv_app": 5037,
+      "groups": 4186
+    },
+    {
+      "pub_file_year": 1992,
+      "rows_seen": 47553,
+      "rows_clean": 6346,
+      "rows_inv_app": 6346,
+      "groups": 5162
+    },
+    {
+      "pub_file_year": 1993,
+      "rows_seen": 40058,
+      "rows_clean": 7952,
+      "rows_inv_app": 7952,
+      "groups": 6380
+    },
+    {
+      "pub_file_year": 1994,
+      "rows_seen": 52320,
+      "rows_clean": 9911,
+      "rows_inv_app": 9911,
+      "groups": 7906
+    },
+    {
+      "pub_file_year": 1995,
+      "rows_seen": 49359,
+      "rows_clean": 9301,
+      "rows_inv_app": 9301,
+      "groups": 7493
+    },
+    {
+      "pub_file_year": 1996,
+      "rows_seen": 50473,
+      "rows_clean": 9579,
+      "rows_inv_app": 9579,
+      "groups": 7771
+    },
+    {
+      "pub_file_year": 1997,
+      "rows_seen": 56086,
+      "rows_clean": 10539,
+      "rows_inv_app": 10539,
+      "groups": 8413
+    },
+    {
+      "pub_file_year": 1998,
+      "rows_seen": 66585,
+      "rows_clean": 11370,
+      "rows_inv_app": 11370,
+      "groups": 8733
+    },
+    {
+      "pub_file_year": 1999,
+      "rows_seen": 99831,
+      "rows_clean": 11706,
+      "rows_inv_app": 11706,
+      "groups": 8613
+    },
+    {
       "pub_file_year": 2000,
       "rows_seen": 110405,
-      "rows_clean": 3057,
-      "rows_inv_app": 3057,
-      "groups": 2059
+      "rows_clean": 14222,
+      "rows_inv_app": 14222,
+      "groups": 9998
     },
     {
       "pub_file_year": 2001,
       "rows_seen": 123118,
-      "rows_clean": 14432,
-      "rows_inv_app": 14432,
-      "groups": 8591
+      "rows_clean": 20186,
+      "rows_inv_app": 20186,
+      "groups": 12124
     },
     {
       "pub_file_year": 2002,
       "rows_seen": 141513,
-      "rows_clean": 26731,
-      "rows_inv_app": 26731,
-      "groups": 13656
+      "rows_clean": 26860,
+      "rows_inv_app": 26860,
+      "groups": 13759
     },
     {
       "pub_file_year": 2003,
       "rows_seen": 184111,
-      "rows_clean": 37046,
-      "rows_inv_app": 37046,
-      "groups": 18481
+      "rows_clean": 37123,
+      "rows_inv_app": 37123,
+      "groups": 18542
     },
     {
       "pub_file_year": 2004,
       "rows_seen": 195634,
-      "rows_clean": 40087,
-      "rows_inv_app": 40087,
-      "groups": 17176
+      "rows_clean": 40152,
+      "rows_inv_app": 40152,
+      "groups": 17225
     },
     {
       "pub_file_year": 2005,
       "rows_seen": 246164,
-      "rows_clean": 70213,
-      "rows_inv_app": 70213,
-      "groups": 29058
+      "rows_clean": 70248,
+      "rows_inv_app": 70248,
+      "groups": 29077
     },
     {
       "pub_file_year": 2006,
       "rows_seen": 304807,
-      "rows_clean": 83795,
-      "rows_inv_app": 83795,
-      "groups": 30493
+      "rows_clean": 83801,
+      "rows_inv_app": 83801,
+      "groups": 30498
     },
     {
       "pub_file_year": 2007,
       "rows_seen": 407786,
-      "rows_clean": 99575,
-      "rows_inv_app": 99575,
-      "groups": 34837
+      "rows_clean": 99619,
+      "rows_inv_app": 99619,
+      "groups": 34841
     },
     {
       "pub_file_year": 2008,
       "rows_seen": 501435,
-      "rows_clean": 140110,
-      "rows_inv_app": 140110,
-      "groups": 45673
+      "rows_clean": 140152,
+      "rows_inv_app": 140152,
+      "groups": 45677
     },
     {
       "pub_file_year": 2009,
       "rows_seen": 661066,
-      "rows_clean": 175393,
-      "rows_inv_app": 175393,
-      "groups": 57990
+      "rows_clean": 175400,
+      "rows_inv_app": 175400,
+      "groups": 57997
     },
     {
       "pub_file_year": 2010,
       "rows_seen": 928892,
-      "rows_clean": 176738,
-      "rows_inv_app": 176738,
-      "groups": 60394
+      "rows_clean": 176742,
+      "rows_inv_app": 176742,
+      "groups": 60398
     },
     {
       "pub_file_year": 2011,
       "rows_seen": 1113642,
-      "rows_clean": 204426,
-      "rows_inv_app": 204426,
-      "groups": 68581
+      "rows_clean": 204429,
+      "rows_inv_app": 204429,
+      "groups": 68582
     },
     {
       "pub_file_year": 2012,
@@ -127,44 +232,44 @@
     {
       "pub_file_year": 2013,
       "rows_seen": 1849408,
-      "rows_clean": 501577,
-      "rows_inv_app": 501577,
-      "groups": 124691
+      "rows_clean": 501579,
+      "rows_inv_app": 501579,
+      "groups": 124692
     },
     {
       "pub_file_year": 2014,
       "rows_seen": 1877285,
-      "rows_clean": 630114,
-      "rows_inv_app": 630114,
-      "groups": 146957
+      "rows_clean": 630129,
+      "rows_inv_app": 630129,
+      "groups": 146959
     },
     {
       "pub_file_year": 2015,
       "rows_seen": 2435017,
-      "rows_clean": 839512,
-      "rows_inv_app": 839512,
-      "groups": 182098
+      "rows_clean": 839513,
+      "rows_inv_app": 839513,
+      "groups": 182099
     },
     {
       "pub_file_year": 2016,
       "rows_seen": 2598155,
-      "rows_clean": 901635,
-      "rows_inv_app": 901635,
-      "groups": 195241
+      "rows_clean": 901651,
+      "rows_inv_app": 901651,
+      "groups": 195249
     },
     {
       "pub_file_year": 2017,
       "rows_seen": 2860285,
-      "rows_clean": 1107465,
-      "rows_inv_app": 1107465,
-      "groups": 236333
+      "rows_clean": 1107468,
+      "rows_inv_app": 1107468,
+      "groups": 236334
     },
     {
       "pub_file_year": 2018,
       "rows_seen": 3695711,
-      "rows_clean": 1390289,
-      "rows_inv_app": 1390289,
-      "groups": 286226
+      "rows_clean": 1390293,
+      "rows_inv_app": 1390293,
+      "groups": 286228
     },
     {
       "pub_file_year": 2019,
@@ -176,9 +281,9 @@
     {
       "pub_file_year": 2020,
       "rows_seen": 4852120,
-      "rows_clean": 1326786,
-      "rows_inv_app": 1326786,
-      "groups": 325741
+      "rows_clean": 1326794,
+      "rows_inv_app": 1326794,
+      "groups": 325742
     },
     {
       "pub_file_year": 2021,

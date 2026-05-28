@@ -17,7 +17,7 @@ import numpy as np
 import pandas as pd
 
 
-ROOT = Path("/Users/mac/computerscience/23实证选题探索/T10")
+ROOT = Path(__file__).resolve().parents[1]
 PROCESSED = ROOT / "data/processed"
 REPORTS = ROOT / "results/reports"
 RAR_PATH = Path(
@@ -26,9 +26,9 @@ RAR_PATH = Path(
 )
 IDC_PANEL = PROCESSED / "idc_scope_formal_application_year_panel_2008_2023.csv"
 
-PUB_START_YEAR = 2000
+PUB_START_YEAR = 1985
 PUB_END_YEAR = 2025
-WARMUP_YEAR = 2000
+WARMUP_YEAR = 1985
 START_YEAR = 2008
 END_YEAR = 2023
 CHUNKSIZE = 200_000
