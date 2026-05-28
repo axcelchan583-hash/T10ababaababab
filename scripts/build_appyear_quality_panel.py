@@ -24,7 +24,7 @@ import numpy as np
 import pandas as pd
 
 
-ROOT = Path("/Users/mac/computerscience/23实证选题探索/T10")
+ROOT = Path(__file__).resolve().parents[1]
 PROCESSED = ROOT / "data/processed"
 REPORTS = ROOT / "results/reports"
 RAR_PATH = Path(

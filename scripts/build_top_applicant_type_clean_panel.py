@@ -17,17 +17,21 @@ from pathlib import Path
 import pandas as pd
 
 
-ROOT = Path("/Users/mac/computerscience/23选题探索/T10")
+ROOT = Path(__file__).resolve().parents[1]
 PROCESSED = ROOT / "data/processed"
 TOPDIR = PROCESSED / "top_applicants"
-DETAIL = PROCESSED / "city_applicant_counts_application_year/city_applicant_counts_inv_app_appyear_2000_2023.csv.gz"
-Y = PROCESSED / "patent_applicant_concentration_application_year_2008_2023.csv"
 
 START_YEAR = 2008
 END_YEAR = 2023
+WARMUP_YEAR = 1985
 BASE_START = 2008
 BASE_END = 2010
 TOP_N = 20
+DETAIL = (
+    PROCESSED
+    / f"city_applicant_counts_application_year/city_applicant_counts_inv_app_appyear_{WARMUP_YEAR}_{END_YEAR}.csv.gz"
+)
+Y = PROCESSED / "patent_applicant_concentration_application_year_2008_2023.csv"
 
 
 TYPE_ORDER = [

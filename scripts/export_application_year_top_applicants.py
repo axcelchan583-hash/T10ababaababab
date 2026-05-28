@@ -9,8 +9,8 @@ from pathlib import Path
 import pandas as pd
 
 
-ROOT = Path("/Users/mac/computerscience/23选题探索/T10")
-DETAIL = ROOT / "data/processed/city_applicant_counts_application_year/city_applicant_counts_inv_app_appyear_2000_2023.csv.gz"
+ROOT = Path(__file__).resolve().parents[1]
+DETAIL = ROOT / "data/processed/city_applicant_counts_application_year/city_applicant_counts_inv_app_appyear_1985_2023.csv.gz"
 OUTDIR = ROOT / "data/processed/top_applicants"
 
 

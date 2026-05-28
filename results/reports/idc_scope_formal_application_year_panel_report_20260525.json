@@ -16,6 +16,6 @@
     "ln1p_idc_registered_stock_l1",
     "ln1p_idc_combined_stock_l1"
   ],
-  "output_csv": "/Users/mac/computerscience/23选题探索/T10/data/processed/idc_scope_formal_application_year_panel_2008_2023.csv",
-  "output_dta": "/Users/mac/computerscience/23选题探索/T10/data/processed/idc_scope_formal_application_year_panel_2008_2023.dta"
+  "output_csv": "/Users/mac/computerscience/23实证选题探索/T10/data/processed/idc_scope_formal_application_year_panel_2008_2023.csv",
+  "output_dta": "/Users/mac/computerscience/23实证选题探索/T10/data/processed/idc_scope_formal_application_year_panel_2008_2023.dta"
 }

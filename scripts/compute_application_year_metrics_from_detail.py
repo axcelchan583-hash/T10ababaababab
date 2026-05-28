@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 
 
-ROOT = Path("/Users/mac/computerscience/23选题探索/T10")
+ROOT = Path(__file__).resolve().parents[1]
 PROCESSED = ROOT / "data" / "processed"
 REPORTS = ROOT / "results" / "reports"
 
@@ -27,6 +27,7 @@ def topn_flags_from_scores(scores: pd.DataFrame, score_col: str, top_n: int, fla
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--scope", default="inv_app_appyear")
+    parser.add_argument("--warmup-start-year", type=int, default=1985)
     parser.add_argument("--start-year", type=int, default=2008)
     parser.add_argument("--end-year", type=int, default=2023)
     parser.add_argument("--baseline-start-year", type=int, default=2008)
@@ -38,7 +39,7 @@ def main() -> None:
     detail_path = (
         PROCESSED
         / "city_applicant_counts_application_year"
-        / f"city_applicant_counts_{args.scope}_2000_{args.end_year}.csv.gz"
+        / f"city_applicant_counts_{args.scope}_{args.warmup_start_year}_{args.end_year}.csv.gz"
     )
     out_csv = PROCESSED / f"patent_applicant_concentration_application_year_{args.start_year}_{args.end_year}.csv"
     out_dta = PROCESSED / f"patent_applicant_concentration_application_year_{args.start_year}_{args.end_year}.dta"
@@ -204,6 +205,7 @@ def main() -> None:
         "cities": int(out["city"].nunique()),
         "years": [int(out["year"].min()), int(out["year"].max())],
         "scope": args.scope,
+        "warmup_start_year": args.warmup_start_year,
         "output_csv": str(out_csv),
         "output_dta": str(out_dta),
     }

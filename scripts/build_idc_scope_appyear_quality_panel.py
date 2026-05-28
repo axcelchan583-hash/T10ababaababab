@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 
 
-ROOT = Path("/Users/mac/computerscience/23实证选题探索/T10")
+ROOT = Path(__file__).resolve().parents[1]
 PROCESSED = ROOT / "data/processed"
 Y = PROCESSED / "patent_applicant_quality_application_year_2008_2023.csv"
 IDC = PROCESSED / "idc_split_proxy_city_year_2000_2024.csv"

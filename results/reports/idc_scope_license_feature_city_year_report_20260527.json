@@ -1,0 +1,11 @@
+{
+  "scope_license_rows": 743,
+  "cloud_compute_rows": 446,
+  "cross_region_rows": 500,
+  "provincial_license_rows": 243,
+  "carrier_rows": 19,
+  "cities_with_cloud_compute_scope": 114,
+  "cities_with_cross_region_scope": 85,
+  "output_csv": "/Users/mac/computerscience/23实证选题探索/T10/data/processed/idc_scope_license_feature_city_year_2000_2024.csv",
+  "caveat": "Feature splits are keyword/license-number diagnostics, not audited MIIT capacity data."
+}

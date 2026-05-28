@@ -1,0 +1,15 @@
+{
+  "results_csv": "/Users/mac/computerscience/23实证选题探索/T10/results/tables/reviewer_round_y_cleaning_results_20260527.csv",
+  "rows": 110,
+  "warmup_comparison": {
+    "comparison_rows": 6149,
+    "output_csv": "/Users/mac/computerscience/23实证选题探索/T10/results/tables/warmup_1985_vs_2000_comparison_20260527.csv"
+  },
+  "kept_policy_controls": [
+    "broadband_china_pilot",
+    "bigdata_comprehensive_pilot",
+    "innovative_city_pilot",
+    "ip_demo_city"
+  ],
+  "note": "Python OLS with dummy fixed effects and city-clustered SE; diagnostic until Stata tables are rerun."
+}

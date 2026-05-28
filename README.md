@@ -52,6 +52,7 @@ ChatGPT Pro 诊断后，当前主线曾改为：
 - [政策名单源头第一轮](docs/memos/policy_list_source_scan_20260527.md)
 - [政策 horse-race 第一版结果](docs/memos/policy_horserace_preliminary_results_20260527.md)
 - [当前结果外部评审 brief](docs/memos/current_results_external_review_brief_20260527.md)
+- [审稿人防守补强第一轮：Y 清洗、X 拆分与质量口径](docs/memos/reviewer_round_y_cleaning_and_x_validation_20260528.md)
 - [给网页版深度评审的 prompt](chat/web_deep_review_prompt_current_results_20260527.md)
 
 ## 阶段性结论
@@ -284,6 +285,28 @@ X 来自城市政府工作报告中 52 个新型数字基础设施关键词。
 - `hhi/top10_share` 在加入政策控制后不再稳。
 
 这进一步支持当前主线应收窄为“创新进入边界扩展”，不应主打“头部再集中”。
+
+2026-05-28 按外部审稿意见补了 Y 清洗与 X 内部验证：
+
+- 主申请年份口径的新进入申请人预热期已从 2000 年前移到 1985 年，主 Y 均值几乎不变；
+- 在省份×年份 FE + 基期能力趋势 FE 下，`new_applicant_share` 边际显著为正，`ln1p_new_applicants` 和 `ln1p_new_patents` 显著为正；
+- 政策 horse-race + 基期能力趋势 FE 下，`new_applicant_share` 仍边际显著为正；
+- 申请人类型拆分显示，强规格下主要来自个人申请人，企业/组织进入不稳；
+- 云/计算相关 IDC 许可的结果强于非云/计算许可，可作为机制一致性证据；
+- HHI 和 Top10 在强规格下不显著，不能再作为主因果结果；
+- 质量口径仍是 2000 预热期补充，支持新进入授权/家族被引授权数量扩张，但不支持高质量新进入份额稳健提升。
+
+最新写作口径相应降级为：
+
+```text
+算力服务可得性与城市专利系统进入边界。
+经验测度是 IDC 经营许可覆盖强度 / IDC 服务覆盖强度。
+```
+
+详见：
+
+- `docs/memos/reviewer_round_y_cleaning_and_x_validation_20260528.md`
+- `docs/design/reviewer_round_update_20260528.md`
 
 粗分类显示，城市-年份 Top20 申请人中的专利量约一半来自企业，约四成来自高校，说明后续机制不能只按“企业/上市公司吸收能力”写，需要单独识别高校科研型头部。
 
