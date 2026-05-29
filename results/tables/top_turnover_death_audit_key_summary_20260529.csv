@@ -1,0 +1,51 @@
+﻿block,eventdef,spec,outcome,coef,p,sig,note
+event,scope_ge_1,province_year_fe,top10_turnover_prev_pat_share,-0.00595494496,0.47394544,,pre_p=0.474; post_sig_pos=0; ntreat=79
+event,scope_ge_1,province_year_fe,top10_turnover_prev_share,-0.0235467698,0.18305787,,pre_p=0.183; post_sig_pos=0; ntreat=79
+event,scope_ge_1,province_year_fe,top20_turnover_prev_pat_share,-0.0015449864800000002,0.86328882,,pre_p=0.863; post_sig_pos=0; ntreat=79
+event,scope_ge_1,province_year_fe,top20_turnover_prev_share,-0.017235446539999998,0.86850607,,pre_p=0.869; post_sig_pos=0; ntreat=79
+event,scope_ge_1,provyr_baseyr_fe,top10_turnover_prev_pat_share,-0.02277664466,0.42537862,,pre_p=0.425; post_sig_pos=0; ntreat=79
+event,scope_ge_1,provyr_baseyr_fe,top10_turnover_prev_share,-0.0278353688,0.18113549,,pre_p=0.181; post_sig_pos=0; ntreat=79
+event,scope_ge_1,provyr_baseyr_fe,top20_turnover_prev_pat_share,-0.011493808560000002,0.80602139,,pre_p=0.806; post_sig_pos=0; ntreat=79
+event,scope_ge_1,provyr_baseyr_fe,top20_turnover_prev_share,-0.01176983614,0.7818253,,pre_p=0.782; post_sig_pos=0; ntreat=79
+event,scope_ge_2,province_year_fe,top10_turnover_prev_pat_share,0.05725439919999999,0.1783863,,pre_p=0.178; post_sig_pos=4; ntreat=66
+event,scope_ge_2,province_year_fe,top10_turnover_prev_share,0.0287873808,0.27450961,,pre_p=0.275; post_sig_pos=1; ntreat=66
+event,scope_ge_2,province_year_fe,top20_turnover_prev_pat_share,0.030131481499999994,0.20198733,,pre_p=0.202; post_sig_pos=0; ntreat=66
+event,scope_ge_2,province_year_fe,top20_turnover_prev_share,-0.0026297287200000006,0.4261789,,pre_p=0.426; post_sig_pos=0; ntreat=66
+event,scope_ge_2,provyr_baseyr_fe,top10_turnover_prev_pat_share,0.0556057601,0.12807086,,pre_p=0.128; post_sig_pos=3; ntreat=66
+event,scope_ge_2,provyr_baseyr_fe,top10_turnover_prev_share,0.03232626079999999,0.15996078,,pre_p=0.160; post_sig_pos=1; ntreat=66
+event,scope_ge_2,provyr_baseyr_fe,top20_turnover_prev_pat_share,0.033934750272000005,0.2515544,,pre_p=0.252; post_sig_pos=3; ntreat=66
+event,scope_ge_2,provyr_baseyr_fe,top20_turnover_prev_share,0.00797494106,0.45851383,,pre_p=0.459; post_sig_pos=0; ntreat=66
+event,scope_ge_3,province_year_fe,top10_turnover_prev_pat_share,0.02159720968,0.02624603,,pre_p=0.026; post_sig_pos=1; ntreat=46
+event,scope_ge_3,province_year_fe,top10_turnover_prev_share,-0.0186920166,0.10214873,,pre_p=0.102; post_sig_pos=0; ntreat=46
+event,scope_ge_3,province_year_fe,top20_turnover_prev_pat_share,0.00987695472,0.028865537,,pre_p=0.029; post_sig_pos=1; ntreat=46
+event,scope_ge_3,province_year_fe,top20_turnover_prev_share,-0.02886303314,0.62872279,,pre_p=0.629; post_sig_pos=0; ntreat=46
+event,scope_ge_3,provyr_baseyr_fe,top10_turnover_prev_pat_share,0.0208347438,0.81341493,,pre_p=0.813; post_sig_pos=1; ntreat=46
+event,scope_ge_3,provyr_baseyr_fe,top10_turnover_prev_share,-0.010091712800000003,0.25452477,,pre_p=0.255; post_sig_pos=0; ntreat=46
+event,scope_ge_3,provyr_baseyr_fe,top20_turnover_prev_pat_share,0.0139355396,0.44888404,,pre_p=0.449; post_sig_pos=0; ntreat=46
+event,scope_ge_3,provyr_baseyr_fe,top20_turnover_prev_share,-0.014714282259999998,0.84303182,,pre_p=0.843; post_sig_pos=0; ntreat=46
+event,scope_ge_5,province_year_fe,top10_turnover_prev_pat_share,0.02369423717,0.15722741,,pre_p=0.157; post_sig_pos=1; ntreat=32
+event,scope_ge_5,province_year_fe,top10_turnover_prev_share,-0.005534331799999999,0.025404034,,pre_p=0.025; post_sig_pos=0; ntreat=32
+event,scope_ge_5,province_year_fe,top20_turnover_prev_pat_share,0.0056296993732,0.30344352,,pre_p=0.303; post_sig_pos=1; ntreat=32
+event,scope_ge_5,province_year_fe,top20_turnover_prev_share,-0.0391169632,0.81796449,,pre_p=0.818; post_sig_pos=0; ntreat=32
+event,scope_ge_5,provyr_baseyr_fe,top10_turnover_prev_pat_share,0.02653870814,0.83538842,,pre_p=0.835; post_sig_pos=0; ntreat=32
+event,scope_ge_5,provyr_baseyr_fe,top10_turnover_prev_share,0.007257573433,0.39781606,,pre_p=0.398; post_sig_pos=0; ntreat=32
+event,scope_ge_5,provyr_baseyr_fe,top20_turnover_prev_pat_share,0.018832033,0.93652958,,pre_p=0.937; post_sig_pos=0; ntreat=32
+event,scope_ge_5,provyr_baseyr_fe,top20_turnover_prev_share,-0.01382557844,0.96402878,,pre_p=0.964; post_sig_pos=0; ntreat=32
+type,,all/provyr_base_policy,t10_new_firm_top,0.0221185592296706,0.15315649,,mean=0.283
+type,,all/provyr_base_policy,t10_new_ind_top,0.002794308179588,0.83487743,,mean=0.124
+type,,all/provyr_base_policy,t10_new_org_top,0.0320414910525398,0.038743615,**,mean=0.326
+type,,all/provyr_base_policy,t10_new_kn_top,0.0052607078126703,0.34869835,,mean=0.033
+type,,all/provyr_base_policy,t10_new_univ_top,0.006091230029412,0.24941184,,mean=0.023
+type,,all/provyr_base_policy,t10_new_res_top,-0.0003228846464141,0.86151379,,mean=0.006
+type,,all/provyr_base_policy,t20_new_firm_top,0.0189772826310789,0.19164935,,mean=0.290
+type,,all/provyr_base_policy,t20_new_ind_top,0.0048629263904096,0.70389563,,mean=0.142
+type,,all/provyr_base_policy,t20_new_org_top,0.0235060458833626,0.10345393,,mean=0.326
+type,,all/provyr_base_policy,t20_new_kn_top,0.0020632906565646,0.64205599,,mean=0.026
+type,,all/provyr_base_policy,t20_new_univ_top,0.0022348713779227,0.59874219,,mean=0.016
+type,,all/provyr_base_policy,t20_new_res_top,-0.0005556375223747,0.7068311,,mean=0.006
+quality,,all/provyr_base_policy,qgrant_t10_new_pat_sh,0.0117963475531948,0.38075769,,mean=0.483
+quality,,all/provyr_base_policy,qgrant_t20_new_pat_sh,-0.0033168523983292,0.77741623,,mean=0.499
+quality,,all/provyr_base_policy,qcited_t10_new_pat_sh,-0.0372660490500977,0.022880964,**,mean=0.666
+quality,,all/provyr_base_policy,qcited_t20_new_pat_sh,-0.0298060333629834,0.070742466,*,mean=0.684
+quality,,all/provyr_base_policy,qfcited_t10_new_pat_sh,0.0016742962002381,0.90416336,,mean=0.504
+quality,,all/provyr_base_policy,qfcited_t20_new_pat_sh,-0.0079681027911272,0.52794015,,mean=0.522
