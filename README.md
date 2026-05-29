@@ -434,6 +434,31 @@ new applicant share 作为配套结构变量；
 - `docs/memos/overall_tech_ddd_ppml_check_20260528.md`
 - `chat/outline/09_ppml_functional_form_check_20260528.md`
 
+随后继续尝试三种 DDD 救法：
+
+1. `PPML + offset(log(total_patents_field))`；
+2. `PPML + offset(log(active_applicants_field))`；
+3. 份额、进入率和是否有新进入者的 DDD。
+
+结果仍不支持 DDD 主识别：
+
+- 总专利 exposure 后，核心系数不再显著为负，但基本不显著为正；
+- 活跃申请人 exposure 后，结果多为负；
+- 新进入专利份额只在 broad 定义下局部显著，换定义和剔除个人/one-shot 后不稳；
+- 真正 extensive margin，即是否出现新进入者，显著为负。
+
+因此最新判断进一步收紧：
+
+```text
+DDD 已经不适合继续硬救；
+后续应回到城市年进入边界主线，或另找更细粒度且能通过 PPML/rate 检验的新 Y。
+```
+
+详见：
+
+- `docs/memos/overall_tech_ddd_rescue_attempts_20260528.md`
+- `chat/outline/10_ddd_rescue_attempts_review_20260528.md`
+
 ## 新进入机制与异质性更新
 
 2026-05-25 已固定主 Y `new_applicant_share`，继续跑机制和异质性。
