@@ -189,6 +189,36 @@ Y_cft = beta ln(1 + IDC_scope_stock_{c,t-1}) × HighCompute_f
 - `../memos/overall_tech_ddd_main_effect_20260528.md`
 - `ddd_main_effect_update_20260528.md`
 
+## 2026-05-28 晚追加：PPML 函数形式压力测试
+
+按照外部评审意见，已对城市×技术领域 DDD 的数量型 Y 补高维固定效应 PPML：
+
+```text
+E[Y_cft] = exp(
+    beta ln(1 + IDC_scope_stock_{c,t-1}) × HighCompute_f
+    + city × year FE
+    + city × HighCompute FE
+    + HighCompute × year FE
+)
+```
+
+结果与 `ln1p` OLS 方向相反：
+
+- `broad` 定义下，新进入申请人数 PPML 系数为 -0.1544，p < 0.001；
+- 新进入专利数 PPML 系数为 -0.1270，p = 0.0245；
+- 替换 HighCompute 定义、剔除个人、剔除 one-shot 后，方向仍主要为负。
+
+因此当前设计应降级：
+
+```text
+城市×技术领域 DDD 不能直接作为最硬主识别；
+它只能作为机制探索或函数形式压力测试。
+```
+
+详见：
+
+- `../memos/overall_tech_ddd_ppml_check_20260528.md`
+
 ## 企业层面补充试验
 
 2026-05-25 已完成企业申请人口径和城市 × 技术领域 × 年份 DDD 第一轮。

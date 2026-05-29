@@ -415,6 +415,25 @@ new applicant share 作为配套结构变量；
 - `docs/memos/overall_tech_ddd_robustness_round_20260528.md`
 - `chat/outline/08_ddd_robustness_round_20260528.md`
 
+2026-05-28 晚继续补 PPML 函数形式复核后，上述 DDD 主识别需要明显降级：
+
+- `ln1p` OLS 中，高算力领域新进入申请人数和新进入专利数为正；
+- 但 Stata `ppmlhdfe` 的 count-level PPML 中，核心系数转为显著为负；
+- 这说明 DDD 结果对函数形式和隐含权重敏感。
+
+当前最新底线：
+
+```text
+城市×技术领域 DDD 不能直接作为最硬主识别；
+它只能作为机制探索或未过关的压力测试。
+若继续做，需要重新考虑份额/率类 Y，或回到城市年进入边界结果。
+```
+
+详见：
+
+- `docs/memos/overall_tech_ddd_ppml_check_20260528.md`
+- `chat/outline/09_ppml_functional_form_check_20260528.md`
+
 ## 新进入机制与异质性更新
 
 2026-05-25 已固定主 Y `new_applicant_share`，继续跑机制和异质性。
