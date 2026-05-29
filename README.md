@@ -20,7 +20,7 @@ ChatGPT Pro 诊断后，当前主线曾改为：
 
 > 城市算力基础设施是否扩大城市创新进入边界？
 
-当前写作口径进一步修正为：理论对象写“城市算力基础设施”，经验测度写“IDC 经营许可覆盖强度 / IDC 服务覆盖强度”。截至 2026-05-28，主识别已转为城市×技术领域 DDD，主 Y 优先放 `ln1p_new_applicants` 和 `ln1p_new_patents`，`new_applicant_share` 作为配套结构变量。HHI、Top share、中腰部挤压和企业技术领域结果都只作为结构性补充或异质性，不再作为最硬主线。
+当前写作口径进一步修正为：理论对象写“城市算力基础设施”，经验测度写“IDC 经营许可覆盖强度 / IDC 服务覆盖强度”。截至 2026-05-28 晚，城市×技术领域 DDD 已经被 PPML 与 rate/share 救法否定，不能再作为最硬主识别；持续进入和高质量进入也没有救出主线。当前唯一有明显生命力的新 Y 是城市 Top10/Top20 专利申请人榜单的产出流动性，即上一年未入榜主体在当年 Top 申请人专利中的份额。后续若继续，应改写为“城市算力服务可得性与头部创新位置重组”，并先补事件研究、主体类型和质量口径。
 
 ## 项目结构
 
@@ -55,6 +55,9 @@ ChatGPT Pro 诊断后，当前主线曾改为：
 - [审稿人防守补强第一轮：Y 清洗、X 拆分与质量口径](docs/memos/reviewer_round_y_cleaning_and_x_validation_20260528.md)
 - [城市×技术领域 DDD 主效应重跑：1985 预热期口径](docs/memos/overall_tech_ddd_main_effect_20260528.md)
 - [城市×技术领域 DDD 防守包：定义替换、政策交互、事件 DDD 与清洗样本](docs/memos/overall_tech_ddd_robustness_round_20260528.md)
+- [城市×技术领域 DDD 的 PPML 函数形式复核](docs/memos/overall_tech_ddd_ppml_check_20260528.md)
+- [城市×技术领域 DDD 救法复核](docs/memos/overall_tech_ddd_rescue_attempts_20260528.md)
+- [新 Y 烟测：持续进入、质量进入与头部榜单流动性](docs/memos/new_y_smoke_tests_20260528.md)
 - [给网页版深度评审的 prompt](chat/web_deep_review_prompt_current_results_20260527.md)
 
 ## 阶段性结论
@@ -458,6 +461,37 @@ DDD 已经不适合继续硬救；
 
 - `docs/memos/overall_tech_ddd_rescue_attempts_20260528.md`
 - `chat/outline/10_ddd_rescue_attempts_review_20260528.md`
+
+2026-05-28 晚进一步寻找新 Y，试了三组：
+
+1. 持续进入：首次进入后 2/3 年内是否继续申请；
+2. 高质量进入：新进入授权、被引授权、家族被引授权；
+3. 头部榜单流动性：当年 Top10/Top20 专利申请人中，上一年未入榜主体贡献的专利份额。
+
+结果：
+
+- 持续进入计数多数为正但不显著，持续进入者在新进入专利中的份额反而为负；
+- 高质量进入方向多为正，但强规格下不显著；
+- 头部榜单流动性最稳：`top10_turnover_prev_pat_share` 和 `top20_turnover_prev_pat_share` 在 all / min20 / min50 样本、城市年份 FE / 强 FE / 强 FE + 政策控制下均显著为正。
+
+因此当前可救的新方向不是“进入边界扩大”，而是：
+
+```text
+城市算力服务可得性与头部创新位置重组：
+来自城市 Top 专利申请人榜单流动性的证据。
+```
+
+这仍只是候选新主线，下一步必须补：
+
+- 头部榜单流动性的事件研究和前趋势；
+- 新晋 Top 主体类型识别；
+- 高质量/数字专利口径的 Top 流动性；
+- Top 申请人名称清洗和人工核验。
+
+详见：
+
+- `docs/memos/new_y_smoke_tests_20260528.md`
+- `chat/outline/11_new_y_smoke_tests_review_20260528.md`
 
 ## 新进入机制与异质性更新
 
