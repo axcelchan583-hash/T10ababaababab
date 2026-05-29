@@ -67,8 +67,8 @@ def sig(p: float) -> str:
 
 
 def build_design(d: pd.DataFrame, xvars: list[str], fe_cols: list[str]) -> tuple[np.ndarray, list[str]]:
-    parts = []
-    names: list[str] = []
+    parts = [np.ones((len(d), 1), dtype=float)]
+    names: list[str] = ["_cons"]
     for x in xvars:
         parts.append(pd.to_numeric(d[x], errors="coerce").fillna(0).to_numpy(dtype=float).reshape(-1, 1))
         names.append(x)
@@ -259,7 +259,7 @@ def main() -> None:
         "variants": variants,
         "samples": samples,
         "kept_policy_controls": kept_policies,
-        "note": "Differenced DDD: high-compute minus low-compute within city-year; city and year FE; city-clustered SE.",
+        "note": "Differenced DDD: high-compute minus low-compute within city-year; constant + city and year FE; city-clustered SE.",
     }
     REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(report, ensure_ascii=False, indent=2))

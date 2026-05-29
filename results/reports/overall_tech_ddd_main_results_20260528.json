@@ -17,5 +17,5 @@
     "ln1p_total_patents_field",
     "ln1p_incumbent_patents_field"
   ],
-  "note": "Differenced DDD: high-compute field minus other field within city-year; city and year FE; city-clustered SE."
+  "note": "Differenced DDD: high-compute field minus other field within city-year; constant + city and year FE; city-clustered SE."
 }

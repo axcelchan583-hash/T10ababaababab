@@ -99,26 +99,28 @@ city × year FE + city × HighCompute FE + HighCompute × year FE
 - `results/tables/overall_tech_ddd_main_results_20260528.csv`
 - `results/reports/overall_tech_ddd_main_results_20260528.json`
 
+2026-05-28 晚修正：根据外部评审提醒，原 Python 虚拟变量实现使用 `drop_first=True` 但未显式加入常数项。现已修正为“常数项 + drop-first dummy”的标准等价实现，并重跑下列表格。修正后系数略小，但方向和显著性结论不变。
+
 ## 主结果
 
 全样本结果：
 
 | Y | 系数 | p 值 | 判断 |
 |---|---:|---:|---|
-| `ln1p_city_new_applicants_field` | 0.2428 | <0.001 | 显著 |
-| `ln1p_city_new_patents_field` | 0.2833 | <0.001 | 显著 |
-| `city_new_share_total_field` | 0.0326 | 0.0201 | 显著 |
-| `ln1p_field_new_applicants_field` | 0.1980 | <0.001 | 显著 |
-| `ln1p_field_new_patents_field` | 0.2205 | <0.001 | 显著 |
-| `field_new_share_total_field` | 0.0304 | 0.0444 | 显著 |
-| `ln1p_total_patents_field` | 0.1989 | <0.001 | 显著 |
-| `ln1p_incumbent_patents_field` | 0.3178 | <0.001 | 显著 |
+| `ln1p_city_new_applicants_field` | 0.2184 | <0.001 | 显著 |
+| `ln1p_city_new_patents_field` | 0.2560 | <0.001 | 显著 |
+| `city_new_share_total_field` | 0.0310 | 0.0270 | 显著 |
+| `ln1p_field_new_applicants_field` | 0.1729 | <0.001 | 显著 |
+| `ln1p_field_new_patents_field` | 0.1928 | <0.001 | 显著 |
+| `field_new_share_total_field` | 0.0317 | 0.0369 | 显著 |
+| `ln1p_total_patents_field` | 0.1665 | 0.0003 | 显著 |
+| `ln1p_incumbent_patents_field` | 0.2973 | <0.001 | 显著 |
 
 解释：
 
 ```text
 IDC 服务覆盖提升后，高算力技术领域相对低算力领域出现更多新进入申请人和新进入专利，
-新进入份额也显著上升。
+新进入份额在 broad 主定义下也正向显著。
 ```
 
 但也要注意：
@@ -126,6 +128,7 @@ IDC 服务覆盖提升后，高算力技术领域相对低算力领域出现更�
 ```text
 既有主体专利在高算力领域也上升。
 因此这不是纯粹“新进入者替代既有主体”，而是高算力领域整体扩张，其中新进入边界同步扩展。
+后续定义替换和清洗样本显示，份额变量不如数量变量稳，不能让份额单独扛主结论。
 ```
 
 ## 样本稳健性
@@ -134,14 +137,14 @@ IDC 服务覆盖提升后，高算力技术领域相对低算力领域出现更�
 
 | 样本 | Y | 系数 | p 值 |
 |---|---|---:|---:|
-| `min20` | `ln1p_city_new_applicants_field` | 0.1843 | <0.001 |
-| `min20` | `ln1p_city_new_patents_field` | 0.2153 | <0.001 |
-| `min20` | `city_new_share_total_field` | 0.0383 | 0.0052 |
-| `min20` | `field_new_share_total_field` | 0.0398 | 0.0054 |
-| `min50` | `ln1p_city_new_applicants_field` | 0.1235 | 0.0034 |
-| `min50` | `ln1p_city_new_patents_field` | 0.1493 | 0.0032 |
-| `min50` | `city_new_share_total_field` | 0.0381 | 0.0069 |
-| `min50` | `field_new_share_total_field` | 0.0481 | 0.0007 |
+| `min20` | `ln1p_city_new_applicants_field` | 0.1530 | <0.001 |
+| `min20` | `ln1p_city_new_patents_field` | 0.1797 | <0.001 |
+| `min20` | `city_new_share_total_field` | 0.0366 | 0.0073 |
+| `min20` | `field_new_share_total_field` | 0.0415 | 0.0039 |
+| `min50` | `ln1p_city_new_applicants_field` | 0.0942 | 0.0019 |
+| `min50` | `ln1p_city_new_patents_field` | 0.1150 | 0.0025 |
+| `min50` | `city_new_share_total_field` | 0.0351 | 0.0113 |
+| `min50` | `field_new_share_total_field` | 0.0492 | 0.0006 |
 
 解释：
 

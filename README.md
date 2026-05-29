@@ -20,7 +20,7 @@ ChatGPT Pro 诊断后，当前主线曾改为：
 
 > 城市算力基础设施是否扩大城市创新进入边界？
 
-当前写作口径进一步修正为：理论对象写“城市算力基础设施”，经验测度写“IDC 经营许可覆盖强度 / IDC 服务覆盖强度”。主 Y 固定为 `new_applicant_share`。HHI、Top share、中腰部挤压和企业技术领域结果都只作为结构性补充或异质性，不再作为最硬主线。
+当前写作口径进一步修正为：理论对象写“城市算力基础设施”，经验测度写“IDC 经营许可覆盖强度 / IDC 服务覆盖强度”。截至 2026-05-28，主识别已转为城市×技术领域 DDD，主 Y 优先放 `ln1p_new_applicants` 和 `ln1p_new_patents`，`new_applicant_share` 作为配套结构变量。HHI、Top share、中腰部挤压和企业技术领域结果都只作为结构性补充或异质性，不再作为最硬主线。
 
 ## 项目结构
 
@@ -128,7 +128,7 @@ ChatGPT Pro 诊断后，当前主线曾改为：
 - 新进入申请人数量和份额；
 - A 股上市公司在 Top 申请人中的占比，作为第二层结果。
 
-截至 2026-05-25，主 Y 已进一步固定为 `new_applicant_share`；HHI、Top share、有效申请人数和活跃申请人只作为配套或结构性补充。
+截至 2026-05-25，城市年模型曾把 `new_applicant_share` 作为最稳主 Y；2026-05-28 城市×技术领域 DDD 修正后，主 Y 降级为数量型新进入变量优先，份额变量作为配套结构结果。
 
 这个方向不再预设上市公司一定输。若 HHI 下降，解释为创新扩散；若 HHI 上升，解释为头部主体吸收能力更强、创新再集中。
 
@@ -363,7 +363,7 @@ Y_{c,k,t} = beta * ln(1 + IDC_scope_stock_{c,t-1}) × HighCompute_k
 
 ```text
 主 Y 不换成企业。
-主线仍是整体新进入申请人份额。
+主线改为整体申请人城市×技术领域 DDD。
 企业结果放在“技术领域异质性/补充机制”：
 高算力领域企业进入数量增加，但份额没有增加。
 ```
@@ -375,12 +375,12 @@ Y_{c,k,t} = beta * ln(1 + IDC_scope_stock_{c,t-1}) × HighCompute_k
 - 模型吸收 `city × year`、`city × HighCompute`、`HighCompute × year`；
 - 识别来自同一城市同一年中，高算力依赖技术领域相对低算力领域的新进入变化。
 
-主结果：
+主结果已按“显式常数项 + drop-first dummy”的标准固定效应实现重跑：
 
-- `ln1p_city_new_applicants_field`：0.2428，p < 0.001；
-- `ln1p_city_new_patents_field`：0.2833，p < 0.001；
-- `city_new_share_total_field`：0.0326，p = 0.0201；
-- 限制高专利量城市后仍显著。
+- `ln1p_city_new_applicants_field`：0.2184，p < 0.001；
+- `ln1p_city_new_patents_field`：0.2560，p < 0.001；
+- `city_new_share_total_field`：0.0310，p = 0.0270；
+- 限制高专利量城市后，数量型新进入结果仍显著。
 
 因此当前论文主线调整为：
 
@@ -484,7 +484,7 @@ ln(1 + IDC_scope_city_stock_{c,t-1})
 
 已用主 X `ln(1 + IDC_scope_city_stock_{c,t-1})` 重跑正式主表、X 稳健性、样本稳健性和事件研究。
 
-关键结论：
+这部分是城市年层面的阶段性结果，现作为背景事实和补充，不再作为最硬主识别。关键结论：
 
 - 最稳的是 **新进入申请人份额上升**。`new_applicant_share` 在城市+年份 FE、省份×年份 FE、基期能力×年份 FE、城市趋势四类规格下均显著为正；
 - `ln1p_new_applicants` 在强规格和城市趋势下为正；

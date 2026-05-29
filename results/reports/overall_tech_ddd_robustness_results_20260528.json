@@ -22,5 +22,5 @@
     "innovative_city_pilot",
     "ip_demo_city"
   ],
-  "note": "Differenced DDD: high-compute minus low-compute within city-year; city and year FE; city-clustered SE."
+  "note": "Differenced DDD: high-compute minus low-compute within city-year; constant + city and year FE; city-clustered SE."
 }

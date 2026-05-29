@@ -58,8 +58,10 @@ def cluster_ols(df: pd.DataFrame, y: str, x: str, fe_cols: list[str], cluster: s
     if len(d) < 50:
         return {"coef": np.nan, "se": np.nan, "t": np.nan, "p": np.nan, "N": len(d), "N_city": d[cluster].nunique()}
 
-    parts = [pd.to_numeric(d[x], errors="coerce").fillna(0).to_numpy(dtype=float).reshape(-1, 1)]
-    names = [x]
+    parts = [np.ones((len(d), 1), dtype=float)]
+    names = ["_cons"]
+    parts.append(pd.to_numeric(d[x], errors="coerce").fillna(0).to_numpy(dtype=float).reshape(-1, 1))
+    names.append(x)
     for fe in fe_cols:
         dd = pd.get_dummies(d[fe].astype(str), prefix=fe, drop_first=True, dtype=float)
         if not dd.empty:
@@ -165,7 +167,7 @@ def main() -> None:
         "rows": int(len(out)),
         "samples": sorted(out["sample"].unique().tolist()),
         "outcomes": OUTCOMES,
-        "note": "Differenced DDD: high-compute field minus other field within city-year; city and year FE; city-clustered SE.",
+        "note": "Differenced DDD: high-compute field minus other field within city-year; constant + city and year FE; city-clustered SE.",
     }
     REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(report, ensure_ascii=False, indent=2))
